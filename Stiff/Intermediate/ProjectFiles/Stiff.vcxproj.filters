@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Stiff.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{282744C4-746F-468A-AAA7-0438FA180173}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Stiff.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\StiffEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E483E5E8-7425-4EC2-B8A1-26223D255286}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Stiff">
+			<UniqueIdentifier>{647E3A1A-A548-4E0D-A6A4-5A954CFAB623}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Stiff\Stiff.Build.cs">
+			<Filter>Source\Stiff</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Stiff\Stiff.cpp">
+			<Filter>Source\Stiff</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Stiff\Stiff.h">
+			<Filter>Source\Stiff</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Stiff\StiffGameModeBase.cpp">
+			<Filter>Source\Stiff</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Stiff\StiffGameModeBase.h">
+			<Filter>Source\Stiff</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
