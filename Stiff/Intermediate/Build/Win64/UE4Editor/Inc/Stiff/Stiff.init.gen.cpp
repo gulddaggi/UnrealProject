@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeStiff_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Stiff",
 				PKG_CompiledIn | 0x00000000,
-				0x0705713F,
-				0x2B458FA4,
+				0xA132A5DE,
+				0xD17F625C,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

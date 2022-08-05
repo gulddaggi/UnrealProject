@@ -37,7 +37,7 @@ public: \
 
 #define Stiff_Source_Stiff_StiffGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AStiffGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AStiffGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStiffGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AStiffGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStiffGameModeBase); \
@@ -49,8 +49,6 @@ public:
 
 
 #define Stiff_Source_Stiff_StiffGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AStiffGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AStiffGameModeBase(AStiffGameModeBase&&); \
@@ -58,7 +56,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AStiffGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStiffGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStiffGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AStiffGameModeBase)
 
 
 #define Stiff_Source_Stiff_StiffGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET

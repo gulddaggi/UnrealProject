@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Stiff.h"
 #include "GameFramework/GameModeBase.h"
 #include "StiffGameModeBase.generated.h"
 
@@ -14,7 +14,10 @@ class STIFF_API AStiffGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
+public:
+	AStiffGameModeBase();
+
+	virtual void PostLogin(APlayerController* NewPlayer) override;
 	
 	
 };

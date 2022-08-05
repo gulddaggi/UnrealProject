@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Stiff-4620.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Stiff-4652.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Stiff-4620.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Stiff-4652.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Stiff-4620.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Stiff-4652.lib",
 			"Type": "ImportLibrary"
 		},
 		{
