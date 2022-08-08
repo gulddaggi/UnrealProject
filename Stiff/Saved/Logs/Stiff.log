@@ -1,4 +1,4 @@
-﻿Log file open, 08/05/22 17:10:40
+﻿Log file open, 08/08/22 19:31:37
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Stiff
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1123881425) SRandInit(-1123881425).
+LogInit: Display: RandInit(-308239678) SRandInit(-308239677).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.524586
+LogStats: Stats thread started at 0.529400
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.230s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../UE4CPP/Stiff/Binaries/Win64/UE4Editor-Stiff-383.dll (API version 3944462).
+LogStreaming: Display: Took  0.733s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../UE4CPP/Stiff/Binaries/Win64/UE4Editor-Stiff-2485.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -220,928 +220,770 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.016s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2022.08.05-08.10.42:192][  0]LogInit: Selected Device Profile: [Windows]
-[2022.08.05-08.10.42:193][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.08.05-08.10.42:205][  0]LogInit: Computer: DESKTOP-7F2F2D9
-[2022.08.05-08.10.42:205][  0]LogInit: User: guldd
-[2022.08.05-08.10.42:205][  0]LogInit: CPU Page size=4096, Cores=6
-[2022.08.05-08.10.42:205][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.08.05-08.10.42:205][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2022.08.05-08.10.42:205][  0]LogMemory: Platform Memory Stats for Windows
-[2022.08.05-08.10.42:205][  0]LogMemory: Process Physical Memory: 277.23 MB used, 277.23 MB peak
-[2022.08.05-08.10.42:205][  0]LogMemory: Process Virtual Memory: 271.48 MB used, 271.48 MB peak
-[2022.08.05-08.10.42:205][  0]LogMemory: Physical Memory: 6057.53 MB used,  10251.75 MB free, 16309.28 MB total
-[2022.08.05-08.10.42:205][  0]LogMemory: Virtual Memory: 4800.46 MB used,  10251.75 MB free, 134217728.00 MB total
-[2022.08.05-08.10.42:293][  0]LogInit: Using OS detected language (ko-KR).
-[2022.08.05-08.10.42:293][  0]LogInit: Using OS detected locale (ko-KR).
-[2022.08.05-08.10.42:297][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2022.08.05-08.10.42:611][  0]LogStreaming: Display: Took  0.318s to EndInitTextLocalization.
-[2022.08.05-08.10.42:611][  0]LogInit: Setting process to per monitor DPI aware
-[2022.08.05-08.10.42:655][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.08.05-08.10.42:655][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.08.05-08.10.42:930][  0]LogD3D11RHI: D3D11 adapters:
-[2022.08.05-08.10.43:055][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
-[2022.08.05-08.10.43:055][  0]LogD3D11RHI:       8050/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.08.05-08.10.43:057][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.08.05-08.10.43:057][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.08.05-08.10.43:057][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.08.05-08.10.43:062][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.08.05-08.10.43:062][  0]LogD3D11RHI:     GPU DeviceId: 0x2486 (for the marketing name, search the web for "GPU Device Id")
-[2022.08.05-08.10.43:062][  0]LogWindows: EnumDisplayDevices:
-[2022.08.05-08.10.43:063][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
-[2022.08.05-08.10.43:063][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.08.05-08.10.43:064][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.08.05-08.10.43:064][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.08.05-08.10.43:064][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2022.08.05-08.10.43:064][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
-[2022.08.05-08.10.43:064][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2022.08.05-08.10.43:064][  0]LogD3D11RHI:      Driver Date: Unknown
-[2022.08.05-08.10.43:064][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
-[2022.08.05-08.10.43:142][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2022.08.05-08.10.43:142][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2022.08.05-08.10.43:142][  0]LogD3D11RHI: Async texture creation enabled
-[2022.08.05-08.10.43:160][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2022.08.05-08.10.43:163][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (../../../../UE4CPP/Stiff/Intermediate/Shaders/WorkingDirectory/16128/).
-[2022.08.05-08.10.43:163][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/guldd/AppData/Local/Temp/UnrealShaderWorkingDir/EA117387476032EDE95035B18DE1914D/'.
-[2022.08.05-08.10.43:428][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2022.08.05-08.10.43:439][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2022.08.05-08.10.43:455][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2022.08.05-08.10.43:466][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2022.08.05-08.10.43:477][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2022.08.05-08.10.43:487][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2022.08.05-08.10.43:499][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2022.08.05-08.10.43:510][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2022.08.05-08.10.43:516][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2022.08.05-08.10.43:525][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2022.08.05-08.10.43:535][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2022.08.05-08.10.43:545][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2022.08.05-08.10.43:554][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2022.08.05-08.10.43:564][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2022.08.05-08.10.43:573][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2022.08.05-08.10.43:592][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2022.08.05-08.10.43:592][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2022.08.05-08.10.43:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2022.08.05-08.10.43:604][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2022.08.05-08.10.43:637][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2022.08.05-08.10.43:646][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2022.08.05-08.10.43:657][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2022.08.05-08.10.43:667][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2022.08.05-08.10.43:676][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2022.08.05-08.10.43:687][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2022.08.05-08.10.43:687][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.08.05-08.10.43:796][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.08.05-08.10.43:796][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.08.05-08.10.43:796][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.08.05-08.10.44:373][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.08.05-08.10.44:436][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2022.08.05-08.10.44:437][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2022.08.05-08.10.44:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4CPP/Stiff/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.08.05-08.10.44:437][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.08.05-08.10.44:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4CPP/Stiff/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.08.05-08.10.44:437][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.08.05-08.10.44:449][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.08.05-08.10.44:462][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guldd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.08.05-08.10.44:462][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.08.05-08.10.44:462][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.08.05-08.10.44:471][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.08.05-08.10.44:472][  0]LogSlate: Using Freetype 2.6.0
-[2022.08.05-08.10.44:472][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.08.05-08.10.44:472][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.08.05-08.10.44:599][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2022.08.05-08.10.44:833][  0]LogInit: Selected Device Profile: [Windows]
-[2022.08.05-08.10.44:956][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2022.08.05-08.10.44:959][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2022.08.05-08.10.44:959][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.08.05-08.10.44:959][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2022.08.05-08.10.44:959][  0]LogMeshReduction: No automatic mesh merging module available
-[2022.08.05-08.10.44:959][  0]LogMeshMerging: No automatic mesh merging module available
-[2022.08.05-08.10.44:988][  0]LogNetVersion: Stiff , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3053263996)
-[2022.08.05-08.10.45:549][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.258880 seconds
-[2022.08.05-08.10.45:553][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2022.08.05-08.10.45:553][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2022.08.05-08.10.45:553][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.08.05-08.10.47:048][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.08.05-08.10.47:079][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.08.05-08.10.47:501][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.08.05-08.10.47:501][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.08.05-08.10.47:521][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.08.05-08.10.47:541][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.08.05-08.10.48:054][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.08.05-08.10.48:305][  0]LogOcInput: OculusInput pre-init called
-[2022.08.05-08.10.48:429][  0]LogEngine: Initializing Engine...
-[2022.08.05-08.10.48:431][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.08.05-08.10.48:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.08.05-08.10.48:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.08.05-08.10.48:610][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.08.05-08.10.48:680][  0]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-08.10.48:736][  0]LogInit: FAudioDevice initialized.
-[2022.08.05-08.10.48:815][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2022.08.05-08.10.48:825][  0]LogInit: Texture streaming: Enabled
-[2022.08.05-08.10.48:840][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.08.05-08.10.48:851][  0]LogInit: Transaction tracking system initialized
-[2022.08.05-08.10.48:871][  0]BlueprintLog: New page: 에디터 로드
-[2022.08.05-08.10.48:933][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2022.08.05-08.10.49:027][  0]LogConsoleResponse: Display: 
-[2022.08.05-08.10.49:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.08.05-08.10.49:231][  0]LogCook: Display: Mobile HDR setting 1
-[2022.08.05-08.10.49:231][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2022.08.05-08.10.49:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.08.05-08.10.49:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.08.05-08.10.49:599][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Content/' took 0.02s
-[2022.08.05-08.10.49:599][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.08.05-08.10.49:599][  0]Cmd: MAP LOAD FILE="../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.08.05-08.10.49:600][  0]LightingResults: New page: 라이팅 빌드
-[2022.08.05-08.10.49:602][  0]MapCheck: New page: 맵 체크
-[2022.08.05-08.10.49:602][  0]LightingResults: New page: 라이팅 빌드
-[2022.08.05-08.10.49:860][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [9.244100ms] /Game/Man/Demo/Mesh/SK_Mannequin.SK_Mannequin
-[2022.08.05-08.10.49:914][  0]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-08.10.49:919][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.08.05-08.10.49:928][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.08.05-08.10.49:977][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 49.339ms.
-[2022.08.05-08.10.49:977][  0]LogFileHelpers: Loading map 'Prototype' took 0.377
-[2022.08.05-08.10.50:155][  0]LogCollectionManager: Loaded 0 collections in 0.001193 seconds
-[2022.08.05-08.10.50:224][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Saved/Collections/' took 0.01s
-[2022.08.05-08.10.50:224][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Content/Developers/guldd/Collections/' took 0.01s
-[2022.08.05-08.10.50:224][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Content/Collections/' took 0.01s
-[2022.08.05-08.10.50:224][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2022.08.05-08.10.50:232][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2453 classes and 560 folders.
-[2022.08.05-08.10.50:246][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.08.05-08.10.51:702][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0031 seconds. Added 0 classes and 0 folders.
-[2022.08.05-08.10.51:741][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2022.08.05-08.10.51:902][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2022.08.05-08.10.51:903][  0]LogLoad: (Engine Initialization) Total time: 13.63 seconds
-[2022.08.05-08.10.51:903][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.08.05-08.10.52:265][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.08.05-08.10.52:266][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.08.05-08.10.52:268][  0]LogSlate: Took 0.001679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2022.08.05-08.10.52:271][  0]LogSlate: Took 0.001725 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2022.08.05-08.10.52:272][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.08.05-08.10.52:291][  0]LogSlate: Took 0.018399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.08.05-08.10.52:561][  1]LogRenderer: Reallocating scene render targets to support 976x360 Format 10 NumSamples 1 (Frame:1).
-[2022.08.05-08.10.52:925][  2]LogAssetRegistry: Asset discovery search completed in 8.3485 seconds
-[2022.08.05-08.10.52:928][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2022.08.05-08.10.52:928][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2022.08.05-08.12.08:906][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-08.27.44:259][917]LogRenderer: Reallocating scene render targets to support 1960x784 Format 10 NumSamples 1 (Frame:580).
-[2022.08.05-08.29.19:881][378]LogSlate: Took 0.039727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2022.08.05-08.29.19:949][378]LogSlate: Took 0.035668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
-[2022.08.05-08.36.43:954][378]LogSlate: Took 0.031656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.08.05-08.36.44:015][378]LogSlate: Took 0.010959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2022.08.05-08.36.48:644][914]LogSlate: Window 'C++ 클래스 추가' being destroyed
-[2022.08.05-08.37.27:732][581]Running D:/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/UE4CPP/Stiff/Stiff.uproject" -game -rocket -progress
-[2022.08.05-08.37.28:046][581]Discovering modules, targets and source code for project...
-[2022.08.05-08.37.41:640][581]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2022.08.05-08.37.41:645][581]Candidate modules for hot reload:
-[2022.08.05-08.37.41:645][581]  Stiff
-[2022.08.05-08.37.41:645][581]Launching UnrealBuildTool... [D:/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Stiff -ModuleWithSuffix=Stiff,2689 Win64 Development -editorrecompile -canskiplink "D:/UE4CPP/Stiff/Stiff.uproject" ]
-[2022.08.05-08.46.10:644][581]CompilerResultsLog: New page: 컴파일 - 2022. 8. 6. 오전 2:46:10
-[2022.08.05-08.46.10:644][581]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
-[2022.08.05-08.46.10:644][581]CompilerResultsLog: Creating makefile for hot reloading Stiff (.uproject file is newer)
-[2022.08.05-08.46.10:645][581]CompilerResultsLog: Compiling game modules for hot reload
-[2022.08.05-08.46.10:645][581]CompilerResultsLog: Parsing headers for StiffEditor
-[2022.08.05-08.46.10:645][581]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4CPP\Stiff\Stiff.uproject" "D:\UE4CPP\Stiff\Intermediate\Build\Win64\StiffEditor\Development\StiffEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2022.08.05-08.46.10:645][581]CompilerResultsLog: Reflection code generated for StiffEditor in 8.0731983 seconds
-[2022.08.05-08.46.10:645][581]CompilerResultsLog: Performing 8 actions (9 in parallel)
-[2022.08.05-08.46.10:645][581]CompilerResultsLog: StiffGameModeBase.gen.cpp
-[2022.08.05-08.46.10:645][581]CompilerResultsLog: Stiff.init.gen.cpp
-[2022.08.05-08.46.10:645][581]CompilerResultsLog: STPawn.gen.cpp
-[2022.08.05-08.46.10:646][581]CompilerResultsLog: Stiff.cpp
-[2022.08.05-08.46.10:646][581]CompilerResultsLog: StiffGameModeBase.cpp
-[2022.08.05-08.46.10:646][581]CompilerResultsLog: STPawn.cpp
-[2022.08.05-08.46.10:646][581]CompilerResultsLog: [7/8] Link UE4Editor-Stiff-2689.dll
-[2022.08.05-08.46.10:646][581]CompilerResultsLog: [8/8] Link UE4Editor-Stiff-2689.lib
-[2022.08.05-08.46.10:646][581]CompilerResultsLog:    D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-2689.lib ???̺귯?? ?? D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-2689.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2022.08.05-08.46.10:709][581]LogSlate: Took 0.062559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2022.08.05-08.46.10:735][581]LogSlate: Took 0.025644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2022.08.05-08.46.10:786][581]LogSlate: Took 0.050281 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
-[2022.08.05-08.46.10:787][581]CompilerResultsLog:    D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-2689.suppressed.lib ???̺귯?? ?? D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-2689.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2022.08.05-08.46.10:787][581]CompilerResultsLog: Total build time: 508.62 seconds (Local executor: 472.74 seconds)
-[2022.08.05-08.46.10:787][581]LogMainFrame: MainFrame: Module compiling took 509.147 seconds
-[2022.08.05-08.46.11:234][581]LogClass: Could not find existing class STPawn in package /Script/Stiff for HotReload, assuming new class
-[2022.08.05-08.46.11:236][581]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 2 classes and 2 folders.
-[2022.08.05-08.46.11:237][581]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-08.46.11:581][581]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2455 classes and 562 folders.
-[2022.08.05-08.46.11:620][581]Display: HotReload took 510.0s.
-[2022.08.05-08.46.11:622][581]Warning: HotReload operation took 510.0s.
-[2022.08.05-08.46.11:718][581]LogSlate: Window 'C++ 클래스 추가' being destroyed
-[2022.08.05-08.46.11:729][581]LogHotReload: New module detected: UE4Editor-Stiff-2689.dll
-[2022.08.05-08.46.11:929][582]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-08.46.11:987][582]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0007 seconds. Added 2 classes and 2 folders.
-[2022.08.05-08.46.11:988][582]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-08.46.12:007][582]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2455 classes and 562 folders.
-[2022.08.05-08.46.12:012][582]Display: HotReload took  0.1s.
-[2022.08.05-08.50.01:425][605]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2022.08.05-08.50.08:178][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2022.08.05-08.50.08:296][375]LogSavePackage: Save=59.02ms
-[2022.08.05-08.50.08:296][375]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/PrototypeF50187AA4A346FB40E774F902F313A80.tmp' to '../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap'
-[2022.08.05-08.50.08:312][375]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap
-[2022.08.05-08.51.07:154][683]LogHotReload: New module detected: UE4Editor-Stiff-4303.dll
-[2022.08.05-08.51.08:171][687]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-08.51.08:565][687]LogHotReload: Re-instancing StiffGameModeBase after hot-reload.
-[2022.08.05-08.51.08:650][687]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 2 classes and 2 folders.
-[2022.08.05-08.51.08:652][687]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-08.51.08:682][687]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2455 classes and 562 folders.
-[2022.08.05-08.51.08:687][687]Display: HotReload took  0.5s.
-[2022.08.05-08.53.57:453][615]Running D:/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Stiff Win64 Development -editorrecompile "D:/UE4CPP/Stiff/Stiff.uproject" -invalidatemakefilesonly
-[2022.08.05-08.53.57:870][615]Invalidating makefiles only in this run.
-[2022.08.05-08.53.57:999][615]Candidate modules for hot reload:
-[2022.08.05-08.53.57:999][615]  Stiff
-[2022.08.05-08.53.57:999][615]Launching UnrealBuildTool... [D:/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Stiff -ModuleWithSuffix=Stiff,3704 Win64 Development -editorrecompile -canskiplink "D:/UE4CPP/Stiff/Stiff.uproject" ]
-[2022.08.05-08.54.12:461][615]CompilerResultsLog: New page: 컴파일 - 2022. 8. 6. 오전 2:54:12
-[2022.08.05-08.54.12:461][615]CompilerResultsLog: Creating makefile for hot reloading Stiff (no existing makefile)
-[2022.08.05-08.54.12:461][615]CompilerResultsLog: Compiling game modules for hot reload
-[2022.08.05-08.54.12:461][615]CompilerResultsLog: Parsing headers for StiffEditor
-[2022.08.05-08.54.12:461][615]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4CPP\Stiff\Stiff.uproject" "D:\UE4CPP\Stiff\Intermediate\Build\Win64\StiffEditor\Development\StiffEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2022.08.05-08.54.12:462][615]CompilerResultsLog: Reflection code generated for StiffEditor in 7.900633 seconds
-[2022.08.05-08.54.12:462][615]CompilerResultsLog: Performing 5 actions (9 in parallel)
-[2022.08.05-08.54.12:462][615]CompilerResultsLog: Stiff.init.gen.cpp
-[2022.08.05-08.54.12:462][615]CompilerResultsLog: STPlayerController.gen.cpp
-[2022.08.05-08.54.12:462][615]CompilerResultsLog: STPlayerController.cpp
-[2022.08.05-08.54.12:462][615]CompilerResultsLog: [4/5] Link UE4Editor-Stiff-3704.dll
-[2022.08.05-08.54.12:462][615]CompilerResultsLog: [5/5] Link UE4Editor-Stiff-3704.lib
-[2022.08.05-08.54.12:462][615]CompilerResultsLog:    D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-3704.lib ???̺귯?? ?? D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-3704.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2022.08.05-08.54.12:463][615]CompilerResultsLog:    D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-3704.suppressed.lib ???̺귯?? ?? D:\UE4CPP\Stiff\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Stiff-3704.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2022.08.05-08.54.12:463][615]CompilerResultsLog: Total build time: 14.27 seconds (Local executor: 1.79 seconds)
-[2022.08.05-08.54.12:463][615]LogMainFrame: MainFrame: Module compiling took 14.469 seconds
-[2022.08.05-08.54.12:837][615]LogClass: Could not find existing class STPlayerController in package /Script/Stiff for HotReload, assuming new class
-[2022.08.05-08.54.12:839][615]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0007 seconds. Added 3 classes and 2 folders.
-[2022.08.05-08.54.12:840][615]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-08.54.12:871][615]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-08.54.12:871][615]Display: HotReload took 14.9s.
-[2022.08.05-08.54.12:872][615]Warning: HotReload operation took 14.9s.
-[2022.08.05-08.54.12:987][615]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UE4CPP/Stiff/Source/Stiff/STPlayerController.h'
-[2022.08.05-08.54.13:063][615]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UE4CPP/Stiff/Source/Stiff/STPlayerController.cpp'
-[2022.08.05-08.54.13:071][615]LogSlate: Window 'C++ 클래스 추가' being destroyed
-[2022.08.05-08.54.13:097][616]LogHotReload: New module detected: UE4Editor-Stiff-3704.dll
-[2022.08.05-08.54.13:130][617]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-08.54.13:186][617]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0007 seconds. Added 3 classes and 2 folders.
-[2022.08.05-08.54.13:188][617]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-08.54.13:207][617]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-08.54.13:213][617]Display: HotReload took  0.1s.
-[2022.08.05-09.06.10:961][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2022.08.05-09.06.13:039][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.06.13:820][381]LogSlate: Took 0.016234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.08.05-09.06.14:719][484]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
-[2022.08.05-09.06.16:085][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.06.33:771][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.08.05-09.06.34:280][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2022.08.05-09.07.06:911][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.07.38:200][452]LogTexture: Display: 텍스처 빌드: T_Pipes_A_M (AutoDXT, 2048X2048)
-[2022.08.05-09.07.38:200][452]LogTexture: Display: 텍스처 빌드: T_Pipes_A_N_normals (BC5, 2048X2048)
-[2022.08.05-09.07.38:200][452]LogTexture: Display: 텍스처 빌드: T_Trims_A_N_normals (BC5, 4096X4096)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Hall_Floor_Sec_C_N_normals (BC5, 4096X4096)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Hall_Floor_Sec_C_M (AutoDXT, 4096X4096)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Trims_A_M_B (AutoDXT, 4096X4096)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Pipes_A_Diff (AutoDXT, 2048X2048)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Hall_Floor_Sec_Diff (AutoDXT, 4096X4096)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Ceiling_A_Buffer_Diff (AutoDXT, 4096X4096)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Ceiling_A_Buffer_N_normals (BC5, 4096X4096)
-[2022.08.05-09.07.38:201][452]LogTexture: Display: 텍스처 빌드: T_Ceiling_A_Buffer_M (AutoDXT, 4096X4096)
-[2022.08.05-09.07.38:202][452]LogTexture: Display: 텍스처 빌드: T_Trims_A_Diff_B (AutoDXT, 4096X4096)
-[2022.08.05-09.07.38:202][452]LogTexture: Display: 텍스처 빌드: T_DefaultLight_S (AutoDXT, 64X64)
-[2022.08.05-09.07.38:202][452]LogMaterial: Missing cached shader map for material M_Base_2C, compiling. 
-[2022.08.05-09.07.38:484][452]LogShaderCompilers: Display: Shaders left to compile 31
-[2022.08.05-09.07.38:485][452]LogShaderCompilers: Display: Shaders left to compile 21
-[2022.08.05-09.07.38:485][452]LogShaderCompilers: Display: Shaders left to compile 11
-[2022.08.05-09.07.38:485][452]LogShaderCompilers: Display: Shaders left to compile 1
-[2022.08.05-09.07.38:485][452]LogStaticMesh: SM_Hall_Floor_Sec_C 스태틱 메시 빌드중...
-[2022.08.05-09.07.38:746][452]LogStaticMesh: Built static mesh [0.31s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Floor_Sec_C.SM_Hall_Floor_Sec_C
-[2022.08.05-09.07.39:623][452]LogActorFactory: Actor Factory created SM_Hall_Floor_Sec_C
-[2022.08.05-09.07.42:772][710]LogActorFactory: Actor Factory created SM_Hall_Floor_Sec_C
-[2022.08.05-09.07.44:666][881]Cmd: DELETE
-[2022.08.05-09.07.44:666][881]Cmd: ACTOR DELETE
-[2022.08.05-09.07.45:127][881]LogEditorActor: Deleted Actor: StaticMeshActor
-[2022.08.05-09.07.45:164][881]LogEditorActor: Deleted 1 Actors (0.138 secs)
-[2022.08.05-09.07.46:045][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.08.05-09.07.46:153][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2022.08.05-09.07.46:232][984]LogSavePackage: Save=17.72ms
-[2022.08.05-09.07.46:233][984]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/Prototype_Auto12652E37143A560620796918E11E07206.tmp' to '../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto1.umap'
-[2022.08.05-09.07.46:234][984]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto1.umap
-[2022.08.05-09.07.46:235][984]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.128
-[2022.08.05-09.07.46:236][984]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.128
-[2022.08.05-09.08.05:877][402]LogTexture: Display: 텍스처 빌드: T_Hall_Door_L_M (AutoDXT, 2048X2048)
-[2022.08.05-09.08.05:877][402]LogTexture: Display: 텍스처 빌드: T_Hall_Door_L_N_normals (BC5, 4096X4096)
-[2022.08.05-09.08.05:877][402]LogTexture: Display: 텍스처 빌드: T_Trims_B_N_normals (BC5, 4096X4096)
-[2022.08.05-09.08.05:877][402]LogTexture: Display: 텍스처 빌드: T_Trims_B_M_B (AutoDXT, 4096X4096)
-[2022.08.05-09.08.05:877][402]LogTexture: Display: 텍스처 빌드: T_Trims_B_M (AutoDXT, 4096X4096)
-[2022.08.05-09.08.05:878][402]LogTexture: Display: 텍스처 빌드: T_Trims_B_Diff_B (AutoDXT, 4096X4096)
-[2022.08.05-09.08.05:878][402]LogTexture: Display: 텍스처 빌드: T_Trims_B_Diff (AutoDXT, 4096X4096)
-[2022.08.05-09.08.05:878][402]LogTexture: Display: 텍스처 빌드: T_Hall_Door_Diff (AutoDXT, 4096X4096)
-[2022.08.05-09.08.05:878][402]LogMaterial: Missing cached shader map for material M_Base_2C, compiling. 
-[2022.08.05-09.08.05:889][402]LogStaticMesh: SM_Ceiling_B_2 스태틱 메시 빌드중...
-[2022.08.05-09.08.05:897][402]LogShaderCompilers: Display: Shaders left to compile 31
-[2022.08.05-09.08.05:897][402]LogShaderCompilers: Display: Shaders left to compile 21
-[2022.08.05-09.08.05:897][402]LogShaderCompilers: Display: Shaders left to compile 11
-[2022.08.05-09.08.05:898][402]LogShaderCompilers: Display: Shaders left to compile 1
-[2022.08.05-09.08.06:000][402]LogStaticMesh: Built static mesh [0.11s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Ceiling_B_2.SM_Ceiling_B_2
-[2022.08.05-09.08.06:027][402]LogActorFactory: Actor Factory created SM_Ceiling_B_2
-[2022.08.05-09.08.10:091][863]LogActorFactory: Actor Factory created SM_Ceiling_B_2
-[2022.08.05-09.08.11:409][ 16]Cmd: DELETE
-[2022.08.05-09.08.11:409][ 16]Cmd: ACTOR DELETE
-[2022.08.05-09.08.11:409][ 16]LogEditorActor: Deleted Actor: StaticMeshActor
-[2022.08.05-09.08.11:417][ 16]LogEditorActor: Deleted 1 Actors (0.008 secs)
-[2022.08.05-09.08.17:616][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.17.46:867][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2022.08.05-09.17.46:888][455]LogSavePackage: Save=17.83ms
-[2022.08.05-09.17.46:888][455]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/Prototype_Auto2E49ABC01480465EDBF9A6EA534B81582.tmp' to '../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto2.umap'
-[2022.08.05-09.17.46:889][455]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto2.umap
-[2022.08.05-09.17.46:891][455]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.032
-[2022.08.05-09.17.46:891][455]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.032
-[2022.08.05-09.44.21:476][520]LogHotReload: New module detected: UE4Editor-Stiff-4652.dll
-[2022.08.05-09.44.23:155][526]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.44.23:642][526]LogClass: Could not find existing class STPawn in package /Script/Stiff for HotReload, assuming new class
-[2022.08.05-09.44.23:714][526]LogHotReload: Re-instancing StiffGameModeBase after hot-reload.
-[2022.08.05-09.44.23:774][526]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.44.23:837][526]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0009 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.44.23:839][526]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.44.23:869][526]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.44.23:874][526]Display: HotReload took  0.7s.
-[2022.08.05-09.44.28:602][697]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
-[2022.08.05-09.44.29:683][819]Cmd: DELETE
-[2022.08.05-09.44.29:683][819]Cmd: ACTOR DELETE
-[2022.08.05-09.44.29:684][819]LogEditorActor: Deleted Actor: SkeletalMeshActor
-[2022.08.05-09.44.29:692][819]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2022.08.05-09.44.30:557][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.44.30:615][930]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.44.30:771][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.44.30:833][930]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:44:30)
-[2022.08.05-09.44.30:862][930]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.44.31:120][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.257547s)
-[2022.08.05-09.44.31:365][930]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.44.31:418][930]LogPlayLevel: PIE: World Init took: (0.297136s)
-[2022.08.05-09.44.31:418][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.555293s)
-[2022.08.05-09.44.31:523][930]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.44.31:562][930]LogInit: FAudioDevice initialized.
-[2022.08.05-09.44.31:692][930]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.44.31:768][930]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.44.31
-[2022.08.05-09.44.31:790][930]LogWorld: Bringing up level for play took: 0.040274
-[2022.08.05-09.44.32:033][930]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2022.08.05-09.44.32:119][930]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 1.779
-[2022.08.05-09.44.42:301][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.44.42:384][ 75]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.44.42:396][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.44.42:397][ 75]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:44:42)
-[2022.08.05-09.44.42:397][ 75]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.44.42:398][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001663s)
-[2022.08.05-09.44.42:399][ 75]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.44.42:399][ 75]LogPlayLevel: PIE: World Init took: (0.000743s)
-[2022.08.05-09.44.42:400][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.002860s)
-[2022.08.05-09.44.42:461][ 75]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.44.42:481][ 75]LogInit: FAudioDevice initialized.
-[2022.08.05-09.44.42:516][ 75]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.44.42:517][ 75]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.44.42
-[2022.08.05-09.44.42:517][ 75]LogWorld: Bringing up level for play took: 0.000585
-[2022.08.05-09.44.42:518][ 75]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.178
-[2022.08.05-09.45.13:016][588]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.45.16:509][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.45.16:609][ 11]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.45.16:620][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.45.16:620][ 11]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:45:16)
-[2022.08.05-09.45.16:620][ 11]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.45.16:623][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002465s)
-[2022.08.05-09.45.16:624][ 11]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.45.16:624][ 11]LogPlayLevel: PIE: World Init took: (0.000839s)
-[2022.08.05-09.45.16:624][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003784s)
-[2022.08.05-09.45.16:684][ 11]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.45.16:705][ 11]LogInit: FAudioDevice initialized.
-[2022.08.05-09.45.16:740][ 11]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.45.16:741][ 11]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.45.16
-[2022.08.05-09.45.16:741][ 11]LogWorld: Bringing up level for play took: 0.000690
-[2022.08.05-09.45.16:743][ 11]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.402
-[2022.08.05-09.45.19:190][297]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
-[2022.08.05-09.45.19:873][372]Cmd: DELETE
-[2022.08.05-09.45.19:874][372]Cmd: ACTOR DELETE
-[2022.08.05-09.45.19:874][372]LogEditorActor: Deleted Actor: SkeletalMeshActor
-[2022.08.05-09.45.19:882][372]LogEditorActor: Deleted 1 Actors (0.008 secs)
-[2022.08.05-09.45.22:995][744]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.45.23:087][755]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.45.23:098][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.45.23:098][755]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:45:23)
-[2022.08.05-09.45.23:098][755]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.45.23:101][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001990s)
-[2022.08.05-09.45.23:102][755]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.45.23:102][755]LogPlayLevel: PIE: World Init took: (0.001358s)
-[2022.08.05-09.45.23:102][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003785s)
-[2022.08.05-09.45.23:167][755]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.45.23:190][755]LogInit: FAudioDevice initialized.
-[2022.08.05-09.45.23:219][755]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.45.23:220][755]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.45.23
-[2022.08.05-09.45.23:221][755]LogWorld: Bringing up level for play took: 0.000608
-[2022.08.05-09.45.23:222][755]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.882
-[2022.08.05-09.46.13:868][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.46.13:934][747]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.46.13:946][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.46.13:946][747]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:46:13)
-[2022.08.05-09.46.13:947][747]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.46.13:949][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002104s)
-[2022.08.05-09.46.13:949][747]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.46.13:950][747]LogPlayLevel: PIE: World Init took: (0.000700s)
-[2022.08.05-09.46.13:950][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003227s)
-[2022.08.05-09.46.14:009][747]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.46.14:029][747]LogInit: FAudioDevice initialized.
-[2022.08.05-09.46.14:063][747]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.46.14:064][747]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.46.14
-[2022.08.05-09.46.14:064][747]LogWorld: Bringing up level for play took: 0.000595
-[2022.08.05-09.46.14:065][747]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: -0.274
-[2022.08.05-09.46.39:746][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2022.08.05-09.46.39:767][ 88]LogSavePackage: Save=17.10ms
-[2022.08.05-09.46.39:767][ 88]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/Prototype_Auto35D800A7046DA3176C246219FE620E320.tmp' to '../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto3.umap'
-[2022.08.05-09.46.39:768][ 88]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Maps/Prototype_Auto3.umap
-[2022.08.05-09.46.39:770][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.033
-[2022.08.05-09.46.39:770][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.033
-[2022.08.05-09.46.42:059][ 95]LogHotReload: New module detected: UE4Editor-Stiff-5025.dll
-[2022.08.05-09.46.43:075][ 99]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.46.43:527][ 99]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.46.43:567][ 99]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.46.43:568][ 99]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.46.43:600][ 99]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.46.43:605][ 99]Display: HotReload took  0.5s.
-[2022.08.05-09.46.46:379][252]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.46.46:392][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.46.46:392][252]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:46:46)
-[2022.08.05-09.46.46:392][252]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.46.46:394][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002044s)
-[2022.08.05-09.46.46:395][252]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.46.46:395][252]LogPlayLevel: PIE: World Init took: (0.000692s)
-[2022.08.05-09.46.46:395][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003290s)
-[2022.08.05-09.46.46:466][252]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.46.46:480][252]LogInit: FAudioDevice initialized.
-[2022.08.05-09.46.46:512][252]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.46.46:513][252]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.46.46
-[2022.08.05-09.46.46:513][252]LogWorld: Bringing up level for play took: 0.000571
-[2022.08.05-09.46.46:514][252]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.175
-[2022.08.05-09.46.55:831][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.08.05-09.46.59:233][721]Cmd: SELECT NONE
-[2022.08.05-09.47.02:119][ 39]Cmd: SELECT NONE
-[2022.08.05-09.47.25:793][227]LogHotReload: New module detected: UE4Editor-Stiff-9452.dll
-[2022.08.05-09.47.26:809][231]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.47.27:154][231]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.47.27:189][231]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.47.27:190][231]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.47.27:222][231]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.47.27:227][231]Display: HotReload took  0.4s.
-[2022.08.05-09.47.29:398][357]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.47.29:409][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.47.29:409][357]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:47:29)
-[2022.08.05-09.47.29:410][357]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.47.29:412][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001920s)
-[2022.08.05-09.47.29:412][357]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.47.29:412][357]LogPlayLevel: PIE: World Init took: (0.000666s)
-[2022.08.05-09.47.29:413][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.002972s)
-[2022.08.05-09.47.29:472][357]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.47.29:492][357]LogInit: FAudioDevice initialized.
-[2022.08.05-09.47.29:525][357]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.47.29:526][357]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.47.29
-[2022.08.05-09.47.29:526][357]LogWorld: Bringing up level for play took: 0.000567
-[2022.08.05-09.47.29:527][357]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: -0.812
-[2022.08.05-09.47.39:500][539]Cmd: SELECT NONE
-[2022.08.05-09.47.40:911][703]Cmd: SELECT NONE
-[2022.08.05-09.47.58:870][941]LogHotReload: New module detected: UE4Editor-Stiff-4783.dll
-[2022.08.05-09.47.59:887][945]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.48.00:273][945]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.48.00:309][945]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.48.00:311][945]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.48.00:340][945]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.48.00:345][945]Display: HotReload took  0.5s.
-[2022.08.05-09.48.02:305][  9]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.48.02:317][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.48.02:317][  9]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:48:02)
-[2022.08.05-09.48.02:317][  9]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.48.02:319][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002128s)
-[2022.08.05-09.48.02:320][  9]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.48.02:320][  9]LogPlayLevel: PIE: World Init took: (0.000640s)
-[2022.08.05-09.48.02:320][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003141s)
-[2022.08.05-09.48.02:379][  9]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.48.02:400][  9]LogInit: FAudioDevice initialized.
-[2022.08.05-09.48.02:436][  9]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.48.02:439][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.48.02
-[2022.08.05-09.48.02:440][  9]LogWorld: Bringing up level for play took: 0.002010
-[2022.08.05-09.48.02:441][  9]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.102
-[2022.08.05-09.48.14:435][439]Cmd: SELECT NONE
-[2022.08.05-09.48.14:986][505]Cmd: SELECT NONE
-[2022.08.05-09.48.15:776][594]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2022.08.05-09.48.48:208][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.08.05-09.48.51:506][230]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2022.08.05-09.48.54:217][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.48.56:042][761]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2022.08.05-09.49.23:771][621]LogHotReload: New module detected: UE4Editor-Stiff-86.dll
-[2022.08.05-09.49.24:789][625]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.49.25:177][625]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.49.25:212][625]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.49.25:214][625]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.49.25:244][625]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.49.25:248][625]Display: HotReload took  0.5s.
-[2022.08.05-09.49.45:251][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.08.05-09.49.46:403][811]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.49.46:415][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.49.46:416][811]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:49:46)
-[2022.08.05-09.49.46:416][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.49.46:418][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002091s)
-[2022.08.05-09.49.46:419][811]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.49.46:419][811]LogPlayLevel: PIE: World Init took: (0.000737s)
-[2022.08.05-09.49.46:419][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003258s)
-[2022.08.05-09.49.46:480][811]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.49.46:499][811]LogInit: FAudioDevice initialized.
-[2022.08.05-09.49.46:529][811]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.49.46:530][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.49.46
-[2022.08.05-09.49.46:530][811]LogWorld: Bringing up level for play took: 0.000566
-[2022.08.05-09.49.46:531][811]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.192
-[2022.08.05-09.50.04:796][986]Cmd: SELECT NONE
-[2022.08.05-09.50.05:713][ 92]Cmd: SELECT NONE
-[2022.08.05-09.50.42:619][653]LogHotReload: New module detected: UE4Editor-Stiff-9443.dll
-[2022.08.05-09.50.43:636][657]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.50.44:030][657]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.50.44:066][657]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.50.44:068][657]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.50.44:098][657]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.50.44:103][657]Display: HotReload took  0.5s.
-[2022.08.05-09.50.46:970][752]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.50.46:981][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.50.46:982][752]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:50:46)
-[2022.08.05-09.50.46:982][752]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.50.46:984][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002048s)
-[2022.08.05-09.50.46:984][752]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.50.46:985][752]LogPlayLevel: PIE: World Init took: (0.000612s)
-[2022.08.05-09.50.46:985][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003028s)
-[2022.08.05-09.50.47:045][752]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.50.47:060][752]LogInit: FAudioDevice initialized.
-[2022.08.05-09.50.47:087][752]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.50.47:088][752]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.50.47
-[2022.08.05-09.50.47:088][752]LogWorld: Bringing up level for play took: 0.000568
-[2022.08.05-09.50.47:089][752]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.749
-[2022.08.05-09.50.55:297][702]Cmd: SELECT NONE
-[2022.08.05-09.50.57:759][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2022.08.05-09.51.20:949][266]LogHotReload: New module detected: UE4Editor-Stiff-176.dll
-[2022.08.05-09.51.21:642][269]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.51.22:028][269]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.51.22:066][269]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.51.22:068][269]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.51.22:099][269]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.51.22:104][269]Display: HotReload took  0.5s.
-[2022.08.05-09.51.23:107][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.08.05-09.51.24:655][434]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.51.24:666][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.51.24:666][434]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:51:24)
-[2022.08.05-09.51.24:667][434]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.51.24:669][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002268s)
-[2022.08.05-09.51.24:670][434]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.51.24:670][434]LogPlayLevel: PIE: World Init took: (0.000858s)
-[2022.08.05-09.51.24:670][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003557s)
-[2022.08.05-09.51.24:730][434]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.51.24:750][434]LogInit: FAudioDevice initialized.
-[2022.08.05-09.51.24:782][434]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.51.24:783][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.51.24
-[2022.08.05-09.51.24:783][434]LogWorld: Bringing up level for play took: 0.000572
-[2022.08.05-09.51.24:784][434]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.445
-[2022.08.05-09.51.35:876][757]Cmd: SELECT NONE
-[2022.08.05-09.51.36:604][839]Cmd: SELECT NONE
-[2022.08.05-09.51.51:602][144]LogHotReload: New module detected: UE4Editor-Stiff-2485.dll
-[2022.08.05-09.51.52:285][147]LogHotReload: Starting Hot-Reload from IDE
-[2022.08.05-09.51.52:679][147]LogHotReload: Re-instancing STPawn after hot-reload.
-[2022.08.05-09.51.52:715][147]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
-[2022.08.05-09.51.52:717][147]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.08.05-09.51.52:749][147]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2456 classes and 562 folders.
-[2022.08.05-09.51.52:754][147]Display: HotReload took  0.5s.
-[2022.08.05-09.51.55:067][253]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.08.05-09.51.55:078][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.08.05-09.51.55:078][253]PIE: New page: PIE 세션: Prototype (2022. 8. 6. 오전 3:51:55)
-[2022.08.05-09.51.55:078][253]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
-[2022.08.05-09.51.55:081][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002027s)
-[2022.08.05-09.51.55:081][253]LogAIModule: Creating AISystem for world Prototype
-[2022.08.05-09.51.55:081][253]LogPlayLevel: PIE: World Init took: (0.000645s)
-[2022.08.05-09.51.55:081][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003051s)
-[2022.08.05-09.51.55:150][253]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.08.05-09.51.55:171][253]LogInit: FAudioDevice initialized.
-[2022.08.05-09.51.55:204][253]LogLoad: Game class is 'StiffGameModeBase'
-[2022.08.05-09.51.55:205][253]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.05-18.51.55
-[2022.08.05-09.51.55:205][253]LogWorld: Bringing up level for play took: 0.000613
-[2022.08.05-09.51.55:206][253]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.867
-[2022.08.05-09.52.02:968][178]Cmd: SELECT NONE
-[2022.08.05-09.52.03:672][260]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2022.08.05-09.52.12:049][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.08.05-09.52.13:740][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2022.08.05-09.52.13:767][451]LogSavePackage: Save=16.64ms
-[2022.08.05-09.52.13:767][451]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/Prototype2DB1EADC4F478F22A8A82FA3D981ACCF.tmp' to '../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap'
-[2022.08.05-09.52.13:769][451]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap
-[2022.08.05-09.52.23:446][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2022.08.05-09.52.23:471][609]LogSavePackage: Save=16.48ms
-[2022.08.05-09.52.23:471][609]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/Prototype3E3D8286473AE44499C437AA1BBC0E24.tmp' to '../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap'
-[2022.08.05-09.52.23:472][609]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap
-[2022.08.05-09.52.39:080][907]LogSlate: Window 'Stiff - 언리얼 에디터' being destroyed
-[2022.08.05-09.52.39:106][907]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.08.05-09.52.39:635][908]Cmd: QUIT_EDITOR
-[2022.08.05-09.52.41:062][908]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2022.08.05-09.52.41:062][908]LogExit: Preparing to exit.
-[2022.08.05-09.52.42:539][908]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Content/' was aborted.
-[2022.08.05-09.52.42:862][908]LogExit: Editor shut down
-[2022.08.05-09.52.42:883][908]LogExit: Transaction tracking system shut down
-[2022.08.05-09.52.43:167][908]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2022.08.05-09.52.43:167][908]LogDirectoryWatcher: A directory notification for '../../../../UE4CPP/Stiff/Content/' was aborted.
-[2022.08.05-09.52.43:167][908]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2022.08.05-09.52.43:167][908]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2022.08.05-09.52.43:168][908]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2022.08.05-09.52.43:168][908]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2022.08.05-09.52.43:168][908]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2022.08.05-09.52.43:168][908]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2022.08.05-09.52.44:977][908]LogExit: Object subsystem successfully closed.
-[2022.08.05-09.52.45:127][908]LogShaderCompilers: Display: Shaders left to compile 0
-[2022.08.05-09.52.45:156][908]LogD3D11RHI: Shutdown
-[2022.08.05-09.52.45:156][908]LogD3D11RHI: CleanupD3DDevice
-[2022.08.05-09.52.45:321][908]LogD3D11RHI: ~FD3D11DynamicRHI
-[2022.08.05-09.52.46:662][908]LogModuleManager: Shutting down and abandoning module Stiff (591)
-[2022.08.05-09.52.46:662][908]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (584)
-[2022.08.05-09.52.46:662][908]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
-[2022.08.05-09.52.46:662][908]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
-[2022.08.05-09.52.46:662][908]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2022.08.05-09.52.46:662][908]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2022.08.05-09.52.46:723][908]LogDirectoryWatcher: A directory notification for 'D:/UE_4.19/FeaturePacks/' was aborted.
-[2022.08.05-09.52.46:727][908]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2022.08.05-09.52.46:727][908]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2022.08.05-09.52.46:727][908]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2022.08.05-09.52.46:736][908]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Content/Collections/' was aborted.
-[2022.08.05-09.52.46:736][908]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Content/Developers/guldd/Collections/' was aborted.
-[2022.08.05-09.52.46:736][908]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Saved/Collections/' was aborted.
-[2022.08.05-09.52.46:736][908]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2022.08.05-09.52.46:738][908]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2022.08.05-09.52.46:738][908]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2022.08.05-09.52.46:760][908]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2022.08.05-09.52.46:761][908]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2022.08.05-09.52.46:761][908]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2022.08.05-09.52.46:761][908]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2022.08.05-09.52.46:771][908]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2022.08.05-09.52.46:771][908]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2022.08.05-09.52.46:771][908]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2022.08.05-09.52.46:771][908]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2022.08.05-09.52.46:786][908]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2022.08.05-09.52.46:797][908]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2022.08.05-09.52.46:805][908]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2022.08.05-09.52.46:805][908]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2022.08.05-09.52.46:805][908]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2022.08.05-09.52.46:819][908]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2022.08.05-09.52.46:890][908]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2022.08.05-09.52.46:891][908]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2022.08.05-09.52.46:951][908]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2022.08.05-09.52.46:951][908]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2022.08.05-09.52.46:951][908]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2022.08.05-09.52.46:971][908]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2022.08.05-09.52.47:000][908]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2022.08.05-09.52.47:007][908]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2022.08.05-09.52.47:023][908]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2022.08.05-09.52.47:046][908]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2022.08.05-09.52.47:046][908]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2022.08.05-09.52.47:046][908]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2022.08.05-09.52.47:046][908]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2022.08.05-09.52.47:046][908]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2022.08.05-09.52.47:300][908]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2022.08.05-09.52.47:300][908]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2022.08.05-09.52.47:300][908]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2022.08.05-09.52.47:300][908]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2022.08.05-09.52.47:311][908]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2022.08.05-09.52.47:322][908]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2022.08.05-09.52.47:332][908]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2022.08.05-09.52.47:346][908]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2022.08.05-09.52.47:347][908]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2022.08.05-09.52.47:364][908]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2022.08.05-09.52.47:364][908]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2022.08.05-09.52.47:369][908]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2022.08.05-09.52.47:370][908]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2022.08.05-09.52.47:370][908]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2022.08.05-09.52.47:370][908]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2022.08.05-09.52.47:370][908]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2022.08.05-09.52.47:409][908]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2022.08.05-09.52.47:421][908]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2022.08.05-09.52.47:434][908]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2022.08.05-09.52.47:441][908]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2022.08.05-09.52.47:454][908]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2022.08.05-09.52.47:517][908]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2022.08.05-09.52.47:528][908]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2022.08.05-09.52.47:548][908]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2022.08.05-09.52.47:574][908]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2022.08.05-09.52.47:574][908]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2022.08.05-09.52.47:602][908]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2022.08.05-09.52.47:602][908]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2022.08.05-09.52.47:632][908]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2022.08.05-09.52.47:632][908]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2022.08.05-09.52.47:633][908]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2022.08.05-09.52.47:682][908]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2022.08.05-09.52.47:735][908]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2022.08.05-09.52.47:736][908]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2022.08.05-09.52.47:736][908]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2022.08.05-09.52.47:747][908]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2022.08.05-09.52.47:805][908]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2022.08.05-09.52.47:805][908]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2022.08.05-09.52.47:810][908]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2022.08.05-09.52.47:810][908]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2022.08.05-09.52.47:810][908]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2022.08.05-09.52.47:810][908]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2022.08.05-09.52.47:819][908]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2022.08.05-09.52.47:819][908]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2022.08.05-09.52.47:819][908]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2022.08.05-09.52.47:819][908]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2022.08.05-09.52.47:819][908]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2022.08.05-09.52.47:819][908]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2022.08.05-09.52.47:842][908]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2022.08.05-09.52.47:842][908]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2022.08.05-09.52.47:854][908]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
-[2022.08.05-09.52.48:006][908]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
-[2022.08.05-09.52.48:013][908]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
-[2022.08.05-09.52.48:013][908]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2022.08.05-09.52.48:013][908]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2022.08.05-09.52.48:018][908]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2022.08.05-09.52.48:018][908]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2022.08.05-09.52.48:018][908]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2022.08.05-09.52.48:018][908]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2022.08.05-09.52.48:024][908]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2022.08.05-09.52.48:024][908]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2022.08.05-09.52.48:024][908]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2022.08.05-09.52.48:024][908]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
-[2022.08.05-09.52.48:024][908]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
-[2022.08.05-09.52.48:052][908]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
-[2022.08.05-09.52.48:053][908]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
-[2022.08.05-09.52.48:053][908]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
-[2022.08.05-09.52.48:053][908]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
-[2022.08.05-09.52.48:063][908]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
-[2022.08.05-09.52.48:063][908]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
-[2022.08.05-09.52.48:068][908]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
-[2022.08.05-09.52.48:068][908]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
-[2022.08.05-09.52.48:068][908]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
-[2022.08.05-09.52.48:068][908]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
-[2022.08.05-09.52.48:068][908]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
-[2022.08.05-09.52.48:068][908]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
-[2022.08.05-09.52.48:083][908]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
-[2022.08.05-09.52.48:091][908]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
-[2022.08.05-09.52.48:097][908]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
-[2022.08.05-09.52.48:097][908]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
-[2022.08.05-09.52.48:097][908]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
-[2022.08.05-09.52.48:097][908]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
-[2022.08.05-09.52.48:097][908]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
-[2022.08.05-09.52.48:105][908]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
-[2022.08.05-09.52.48:115][908]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
-[2022.08.05-09.52.48:126][908]LogModuleManager: Shutting down and abandoning module SourceControl (305)
-[2022.08.05-09.52.48:136][908]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
-[2022.08.05-09.52.48:146][908]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
-[2022.08.05-09.52.48:146][908]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
-[2022.08.05-09.52.48:146][908]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
-[2022.08.05-09.52.48:146][908]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
-[2022.08.05-09.52.48:159][908]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
-[2022.08.05-09.52.48:172][908]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2022.08.05-09.52.48:172][908]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2022.08.05-09.52.48:172][908]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2022.08.05-09.52.48:172][908]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2022.08.05-09.52.48:172][908]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2022.08.05-09.52.48:172][908]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2022.08.05-09.52.48:172][908]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2022.08.05-09.52.48:182][908]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2022.08.05-09.52.48:182][908]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2022.08.05-09.52.48:308][908]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2022.08.05-09.52.48:426][908]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2022.08.05-09.52.48:437][908]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2022.08.05-09.52.48:447][908]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2022.08.05-09.52.48:447][908]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2022.08.05-09.52.48:447][908]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2022.08.05-09.52.48:472][908]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2022.08.05-09.52.48:509][908]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2022.08.05-09.52.48:521][908]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2022.08.05-09.52.48:521][908]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2022.08.05-09.52.48:521][908]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2022.08.05-09.52.48:521][908]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Binaries/Win64' was aborted.
-[2022.08.05-09.52.48:522][908]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2022.08.05-09.52.48:523][908]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2022.08.05-09.52.48:538][908]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2022.08.05-09.52.48:538][908]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2022.08.05-09.52.48:552][908]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2022.08.05-09.52.49:003][908]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2022.08.05-09.52.49:032][908]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2022.08.05-09.52.49:048][908]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2022.08.05-09.52.49:063][908]LogModuleManager: Shutting down and abandoning module Media (233)
-[2022.08.05-09.52.49:069][908]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2022.08.05-09.52.49:069][908]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2022.08.05-09.52.49:069][908]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2022.08.05-09.52.49:090][908]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2022.08.05-09.52.49:090][908]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2022.08.05-09.52.49:090][908]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2022.08.05-09.52.49:090][908]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2022.08.05-09.52.49:102][908]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2022.08.05-09.52.49:102][908]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2022.08.05-09.52.49:102][908]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2022.08.05-09.52.49:128][908]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2022.08.05-09.52.49:136][908]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2022.08.05-09.52.49:146][908]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2022.08.05-09.52.49:196][908]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2022.08.05-09.52.49:209][908]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2022.08.05-09.52.49:240][908]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2022.08.05-09.52.49:259][908]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2022.08.05-09.52.49:259][908]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2022.08.05-09.52.49:296][908]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2022.08.05-09.52.49:296][908]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module Core (178)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2022.08.05-09.52.49:328][908]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2022.08.05-09.52.49:343][908]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2022.08.05-09.52.49:350][908]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2022.08.05-09.52.49:350][908]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2022.08.05-09.52.49:378][908]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2022.08.05-09.52.49:390][908]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2022.08.05-09.52.49:419][908]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2022.08.05-09.52.49:450][908]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2022.08.05-09.52.49:452][908]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2022.08.05-09.52.49:506][908]LogDerivedDataCache: Shutdown
-[2022.08.05-09.52.49:506][908]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2022.08.05-09.52.49:506][908]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2022.08.05-09.52.49:519][908]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2022.08.05-09.52.49:532][908]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2022.08.05-09.52.49:543][908]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2022.08.05-09.52.49:560][908]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2022.08.05-09.52.49:579][908]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2022.08.05-09.52.49:595][908]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2022.08.05-09.52.49:595][908]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2022.08.05-09.52.49:595][908]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2022.08.05-09.52.49:595][908]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2022.08.05-09.52.49:610][908]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2022.08.05-09.52.49:610][908]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2022.08.05-09.52.49:610][908]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2022.08.05-09.52.49:610][908]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2022.08.05-09.52.49:610][908]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2022.08.05-09.52.49:610][908]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2022.08.05-09.52.49:624][908]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2022.08.05-09.52.49:625][908]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2022.08.05-09.52.49:625][908]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2022.08.05-09.52.49:636][908]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2022.08.05-09.52.49:637][908]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2022.08.05-09.52.49:637][908]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2022.08.05-09.52.49:637][908]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2022.08.05-09.52.49:637][908]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2022.08.05-09.52.49:637][908]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2022.08.05-09.52.49:637][908]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2022.08.05-09.52.49:637][908]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2022.08.05-09.52.49:648][908]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2022.08.05-09.52.49:648][908]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2022.08.05-09.52.49:648][908]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2022.08.05-09.52.49:648][908]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2022.08.05-09.52.49:648][908]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2022.08.05-09.52.49:670][908]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2022.08.05-09.52.49:683][908]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2022.08.05-09.52.49:721][908]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2022.08.05-09.52.49:722][908]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B81C5794C-43E5-0EF2-AC93-6B9D0AE3980A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=e79f5cc5407acae592eeb0a476ccd7a2%7C08905224029e428f9f07defacfcb4ba1%7C77501964-0de5-4002-8f6f-3f941ea6e768&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2022.08.05-09.52.49:753][908]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2022.08.05-09.52.49:814][908]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2022.08.05-09.52.49:833][908]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2022.08.05-09.52.49:902][908]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2022.08.05-09.52.49:945][908]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2022.08.05-09.52.49:945][908]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2022.08.05-09.52.49:945][908]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2022.08.05-09.52.49:945][908]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2022.08.05-09.52.50:018][908]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2022.08.05-09.52.50:032][908]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2022.08.05-09.52.50:032][908]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2022.08.05-09.52.50:048][908]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2022.08.05-09.52.50:048][908]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2022.08.05-09.52.50:048][908]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2022.08.05-09.52.50:048][908]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2022.08.05-09.52.50:054][908]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2022.08.05-09.52.50:054][908]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2022.08.05-09.52.50:062][908]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2022.08.05-09.52.50:070][908]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2022.08.05-09.52.50:124][908]LogExit: Exiting.
-[2022.08.05-09.52.50:149][908]Log file closed, 08/05/22 18:52:50
+[2022.08.08-10.31.39:738][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.08-10.31.39:738][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.08.08-10.31.39:775][  0]LogInit: Computer: DESKTOP-7F2F2D9
+[2022.08.08-10.31.39:775][  0]LogInit: User: guldd
+[2022.08.08-10.31.39:775][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.08.08-10.31.39:775][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.08.08-10.31.39:775][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.08.08-10.31.39:775][  0]LogMemory: Platform Memory Stats for Windows
+[2022.08.08-10.31.39:775][  0]LogMemory: Process Physical Memory: 277.19 MB used, 277.20 MB peak
+[2022.08.08-10.31.39:775][  0]LogMemory: Process Virtual Memory: 271.42 MB used, 271.42 MB peak
+[2022.08.08-10.31.39:775][  0]LogMemory: Physical Memory: 8728.71 MB used,  7580.57 MB free, 16309.28 MB total
+[2022.08.08-10.31.39:775][  0]LogMemory: Virtual Memory: 4800.46 MB used,  7580.57 MB free, 134217728.00 MB total
+[2022.08.08-10.31.39:867][  0]LogInit: Using OS detected language (ko-KR).
+[2022.08.08-10.31.39:867][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.08.08-10.31.39:871][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.08.08-10.31.40:189][  0]LogStreaming: Display: Took  0.322s to EndInitTextLocalization.
+[2022.08.08-10.31.40:189][  0]LogInit: Setting process to per monitor DPI aware
+[2022.08.08-10.31.40:234][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.08.08-10.31.40:234][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.08.08-10.31.40:513][  0]LogD3D11RHI: D3D11 adapters:
+[2022.08.08-10.31.40:632][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
+[2022.08.08-10.31.40:632][  0]LogD3D11RHI:       8050/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.08.08-10.31.40:634][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.08.08-10.31.40:634][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.08.08-10.31.40:634][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.08.08-10.31.40:640][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.08.08-10.31.40:640][  0]LogD3D11RHI:     GPU DeviceId: 0x2486 (for the marketing name, search the web for "GPU Device Id")
+[2022.08.08-10.31.40:640][  0]LogWindows: EnumDisplayDevices:
+[2022.08.08-10.31.40:640][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
+[2022.08.08-10.31.40:640][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.08.08-10.31.40:641][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.08.08-10.31.40:641][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.08.08-10.31.40:642][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.08.08-10.31.40:642][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
+[2022.08.08-10.31.40:642][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.08.08-10.31.40:642][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.08.08-10.31.40:642][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
+[2022.08.08-10.31.40:722][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2022.08.08-10.31.40:722][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2022.08.08-10.31.40:722][  0]LogD3D11RHI: Async texture creation enabled
+[2022.08.08-10.31.40:743][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.08.08-10.31.40:747][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (../../../../UE4CPP/Stiff/Intermediate/Shaders/WorkingDirectory/18824/).
+[2022.08.08-10.31.40:747][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/guldd/AppData/Local/Temp/UnrealShaderWorkingDir/E9A809A44C1EC704EFB0B4A522AFD1E6/'.
+[2022.08.08-10.31.41:278][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.08.08-10.31.41:290][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.08.08-10.31.41:301][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.08.08-10.31.41:314][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.08.08-10.31.41:325][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.08.08-10.31.41:337][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.08.08-10.31.41:349][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.08.08-10.31.41:360][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.08.08-10.31.41:366][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.08.08-10.31.41:376][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.08.08-10.31.41:389][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.08.08-10.31.41:401][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.08.08-10.31.41:413][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2022.08.08-10.31.41:423][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.08.08-10.31.41:434][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.08.08-10.31.41:453][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.08.08-10.31.41:453][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.08.08-10.31.41:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.08.08-10.31.41:466][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.08.08-10.31.41:503][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.08.08-10.31.41:514][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.08.08-10.31.41:525][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.08.08-10.31.41:536][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.08.08-10.31.41:549][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.08.08-10.31.41:560][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.08.08-10.31.41:560][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.08.08-10.31.41:677][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.08.08-10.31.41:677][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.08.08-10.31.41:677][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.08.08-10.31.42:275][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.08.08-10.31.42:338][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2022.08.08-10.31.42:338][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2022.08.08-10.31.42:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4CPP/Stiff/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.08.08-10.31.42:338][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.08.08-10.31.42:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4CPP/Stiff/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.08-10.31.42:338][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.08.08-10.31.42:352][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.08.08-10.31.42:364][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guldd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.08.08-10.31.42:364][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.08.08-10.31.42:364][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.08.08-10.31.42:373][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.08.08-10.31.42:374][  0]LogSlate: Using Freetype 2.6.0
+[2022.08.08-10.31.42:374][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.08.08-10.31.42:374][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.08.08-10.31.42:500][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2022.08.08-10.31.42:765][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.08-10.31.42:895][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.08.08-10.31.42:898][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.08.08-10.31.42:898][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.08.08-10.31.42:898][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.08.08-10.31.42:898][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.08.08-10.31.42:898][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.08.08-10.31.42:930][  0]LogNetVersion: Stiff , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3053263996)
+[2022.08.08-10.31.43:623][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.369089 seconds
+[2022.08.08-10.31.43:630][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2022.08.08-10.31.43:630][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2022.08.08-10.31.43:630][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.08.08-10.31.45:226][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.08.08-10.31.45:259][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.08.08-10.31.45:892][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [44.969200ms] /Game/Man/Demo/Mesh/SK_Mannequin.SK_Mannequin
+[2022.08.08-10.31.46:119][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.08.08-10.31.46:119][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.08.08-10.31.46:143][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.08.08-10.31.46:167][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.08.08-10.31.46:703][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.08.08-10.31.46:969][  0]LogOcInput: OculusInput pre-init called
+[2022.08.08-10.31.47:107][  0]LogEngine: Initializing Engine...
+[2022.08.08-10.31.47:109][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.08-10.31.47:131][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.08.08-10.31.47:131][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.08.08-10.31.47:328][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.08.08-10.31.47:402][  0]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-10.31.47:435][  0]LogInit: FAudioDevice initialized.
+[2022.08.08-10.31.47:483][  0]LogDerivedDataCache: Saved boot cache 0.05s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2022.08.08-10.31.47:498][  0]LogInit: Texture streaming: Enabled
+[2022.08.08-10.31.47:515][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.08.08-10.31.47:598][  0]LogInit: Transaction tracking system initialized
+[2022.08.08-10.31.47:619][  0]BlueprintLog: New page: 에디터 로드
+[2022.08.08-10.31.47:710][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.08.08-10.31.47:825][  0]LogConsoleResponse: Display: 
+[2022.08.08-10.31.48:051][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.08.08-10.31.48:051][  0]LogCook: Display: Mobile HDR setting 1
+[2022.08.08-10.31.48:051][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.08.08-10.31.48:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.08.08-10.31.48:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.08.08-10.31.48:462][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Content/' took 0.04s
+[2022.08.08-10.31.48:462][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.08.08-10.31.48:462][  0]Cmd: MAP LOAD FILE="../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.08-10.31.48:462][  0]LightingResults: New page: 라이팅 빌드
+[2022.08.08-10.31.48:464][  0]MapCheck: New page: 맵 체크
+[2022.08.08-10.31.48:464][  0]LightingResults: New page: 라이팅 빌드
+[2022.08.08-10.31.48:629][  0]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-10.31.48:633][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.08-10.31.48:772][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.08-10.31.48:825][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 52.905ms.
+[2022.08.08-10.31.48:825][  0]LogFileHelpers: Loading map 'Prototype' took 0.363
+[2022.08.08-10.31.49:682][  0]LogCollectionManager: Loaded 0 collections in 0.018859 seconds
+[2022.08.08-10.31.49:800][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Saved/Collections/' took 0.01s
+[2022.08.08-10.31.49:800][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Content/Developers/guldd/Collections/' took 0.01s
+[2022.08.08-10.31.49:800][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/Stiff/Content/Collections/' took 0.01s
+[2022.08.08-10.31.49:800][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.08.08-10.31.49:810][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2455 classes and 560 folders.
+[2022.08.08-10.31.49:890][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.08.08-10.31.51:561][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.08.08-10.31.51:665][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2022.08.08-10.31.52:557][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.08.08-10.31.52:557][  0]LogLoad: (Engine Initialization) Total time: 18.22 seconds
+[2022.08.08-10.31.52:557][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.08.08-10.31.52:982][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.08.08-10.31.52:984][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.08.08-10.31.52:987][  0]LogSlate: Took 0.002821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.08.08-10.31.52:992][  0]LogSlate: Took 0.002047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.08.08-10.31.52:992][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.08.08-10.31.53:023][  0]LogSlate: Took 0.029334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.08.08-10.31.53:693][  1]LogRenderer: Reallocating scene render targets to support 976x360 Format 10 NumSamples 1 (Frame:1).
+[2022.08.08-10.31.54:048][  2]LogAssetRegistry: Asset discovery search completed in 11.5701 seconds
+[2022.08.08-10.31.54:066][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.08.08-10.31.54:066][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2022.08.08-10.38.18:453][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.08-10.38.22:096][575]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-10.38.22:174][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-10.38.22:259][575]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 4:38:22)
+[2022.08.08-10.38.22:260][575]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-10.38.22:334][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073893s)
+[2022.08.08-10.38.22:335][575]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-10.38.22:353][575]LogPlayLevel: PIE: World Init took: (0.018585s)
+[2022.08.08-10.38.22:353][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.092716s)
+[2022.08.08-10.38.22:422][575]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-10.38.22:441][575]LogInit: FAudioDevice initialized.
+[2022.08.08-10.38.22:533][575]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-10.38.22:644][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-19.38.22
+[2022.08.08-10.38.22:664][575]LogWorld: Bringing up level for play took: 0.023959
+[2022.08.08-10.38.22:820][575]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2022.08.08-10.38.22:898][575]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.52
+[2022.08.08-10.38.29:292][260]LogSlate: Took 0.080445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.08-10.39.24:157][736]LogRenderer: Reallocating scene render targets to support 976x772 Format 10 NumSamples 1 (Frame:1199).
+[2022.08.08-10.51.47:572][288]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.08.08-10.51.49:694][289]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Stiff
+[2022.08.08-10.51.49:694][289]LogTemp: CWD: D:\UE_4.19\Engine\Binaries\DotNET\IOS
+[2022.08.08-10.51.49:694][289]LogTemp: Initial Dir: D:\UE_4.19
+[2022.08.08-10.51.49:694][289]LogTemp: Env CWD: D:\UE_4.19\Engine\Binaries\DotNET\IOS
+[2022.08.08-10.51.49:694][289]LogTemp: BranchPath = DESKTOP-7F2F2D9/D/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-7F2F2D9/D/UE_4.19/Engine/Binaries
+[2022.08.08-10.51.49:694][289]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\guldd\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2022.08.08-11.00.44:014][920]LogGameProjectGeneration: Warning: Failed to find a suffix for the default project name
+[2022.08.08-11.01.07:410][506]LogSlate: Window '새 프로젝트' being destroyed
+[2022.08.08-11.02.35:243][551]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.08.08-11.02.36:185][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.08-11.02.36:385][640]LogRenderer: Reallocating scene render targets to support 976x1312 Format 10 NumSamples 1 (Frame:34283).
+[2022.08.08-11.02.38:130][829]Cmd: TRANSACTION UNDO
+[2022.08.08-11.02.38:130][829]LogEditorTransaction: Undo 액터 클릭
+[2022.08.08-11.02.39:156][926]Cmd: TRANSACTION UNDO
+[2022.08.08-11.02.39:156][926]LogEditorTransaction: Undo 키 값 변경
+[2022.08.08-11.02.45:605][550]LogSlate: Took 0.026376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.08.08-11.02.45:697][550]LogSlate: Took 0.057874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.08.08-11.04.21:470][935]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.08.08-11.04.21:476][935]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.08.08-12.57.05:299][492]LogHotReload: New module detected: UE4Editor-Stiff-7572.dll
+[2022.08.08-12.57.06:646][497]LogHotReload: Starting Hot-Reload from IDE
+[2022.08.08-12.57.07:439][497]LogHotReload: Re-instancing STPawn after hot-reload.
+[2022.08.08-12.57.08:033][497]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0013 seconds. Added 3 classes and 2 folders.
+[2022.08.08-12.57.08:035][497]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.08.08-12.57.08:191][497]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2456 classes and 562 folders.
+[2022.08.08-12.57.08:291][497]Display: HotReload took  1.6s.
+[2022.08.08-12.59.13:503][974]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-12.59.13:521][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-12.59.13:521][974]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 6:59:13)
+[2022.08.08-12.59.13:521][974]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-12.59.13:527][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005698s)
+[2022.08.08-12.59.13:530][974]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-12.59.13:530][974]LogPlayLevel: PIE: World Init took: (0.002618s)
+[2022.08.08-12.59.13:530][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.008799s)
+[2022.08.08-12.59.13:593][974]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-12.59.13:615][974]LogInit: FAudioDevice initialized.
+[2022.08.08-12.59.13:656][974]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-12.59.13:658][974]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-21.59.13
+[2022.08.08-12.59.13:658][974]LogWorld: Bringing up level for play took: 0.000856
+[2022.08.08-12.59.13:668][974]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: -0.711
+[2022.08.08-12.59.23:345][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-12.59.24:000][182]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-12.59.24:446][182]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.08.08-12.59.25:820][184]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Stiff
+[2022.08.08-12.59.25:821][184]LogTemp: CWD: D:\UE_4.19\Engine\Binaries\DotNET\IOS
+[2022.08.08-12.59.25:821][184]LogTemp: Initial Dir: D:\UE_4.19
+[2022.08.08-12.59.25:821][184]LogTemp: Env CWD: D:\UE_4.19\Engine\Binaries\DotNET\IOS
+[2022.08.08-12.59.25:821][184]LogTemp: BranchPath = DESKTOP-7F2F2D9/D/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-7F2F2D9/D/UE_4.19/Engine/Binaries
+[2022.08.08-12.59.25:821][184]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\guldd\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2022.08.08-12.59.35:324][284]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.08.08-12.59.35:327][284]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.08.08-12.59.36:355][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.08-12.59.36:422][413]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-12.59.36:434][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-12.59.36:435][413]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 6:59:36)
+[2022.08.08-12.59.36:435][413]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-12.59.36:438][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003371s)
+[2022.08.08-12.59.36:439][413]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-12.59.36:439][413]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2022.08.08-12.59.36:439][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.004593s)
+[2022.08.08-12.59.36:502][413]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-12.59.36:522][413]LogInit: FAudioDevice initialized.
+[2022.08.08-12.59.36:550][413]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-12.59.36:551][413]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-21.59.36
+[2022.08.08-12.59.36:551][413]LogWorld: Bringing up level for play took: 0.000584
+[2022.08.08-12.59.36:552][413]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.174
+[2022.08.08-13.06.29:503][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.08-13.47.23:174][191]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.08.08-13.47.39:609][191]LogSlate: Window '애니메이션 블루프린트 생성' being destroyed
+[2022.08.08-13.55.54:066][980]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f42020f548, Size=4, Default__SKEL_NewAnimBlueprint_C Function /Game/Man/Demo/Animations/NewAnimBlueprint.SKEL_NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint
+[2022.08.08-13.55.54:091][980]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f42020f158, Size=4, Default__NewAnimBlueprint_C Function /Game/Man/Demo/Animations/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint
+[2022.08.08-13.57.40:300][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.029
+[2022.08.08-13.57.40:325][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Man/Demo/Animations/NewAnimBlueprint] ([1] browsable assets)...
+[2022.08.08-13.57.40:363][565]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Man/Demo/Animations/NewAnimBlueprint.NewAnimBlueprint]
+[2022.08.08-13.57.40:363][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Man/Demo/Animations/NewAnimBlueprint]
+[2022.08.08-13.57.40:453][565]LogSavePackage: Save=71.74ms
+[2022.08.08-13.57.40:453][565]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/NewAnimBlueprint_Auto19DE9F5EB4CB8F345A6BCC2AFFE92AFEF.tmp' to '../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Man/Demo/Animations/NewAnimBlueprint_Auto1.uasset'
+[2022.08.08-13.57.40:474][565]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Man/Demo/Animations/NewAnimBlueprint_Auto1.uasset
+[2022.08.08-13.57.40:474][565]LogFileHelpers: Auto-saving content packages took 0.173
+[2022.08.08-14.00.49:672][984]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f42020f548, Size=4
+[2022.08.08-14.00.49:672][984]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f42020f548, Size=4, Default__SKEL_PawnAnimBlueprint_C Function /Engine/Transient.REINST_SKEL_PawnAnimBlueprint_C_0:ExecuteUbergraph_NewAnimBlueprint
+[2022.08.08-14.00.49:673][984]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f42020f158, Size=4
+[2022.08.08-14.00.49:674][984]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f42020f158, Size=4, Default__PawnAnimBlueprint_C Function /Engine/Transient.REINST_PawnAnimBlueprint_C_1:ExecuteUbergraph_NewAnimBlueprint
+[2022.08.08-14.00.49:715][984]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f42020c9e0, Size=4, Default__PawnAnimBlueprint_C Function /Game/Man/Demo/Animations/PawnAnimBlueprint.PawnAnimBlueprint_C:ExecuteUbergraph_PawnAnimBlueprint
+[2022.08.08-14.00.49:787][984]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f42020f548, Size=4
+[2022.08.08-14.00.49:787][984]LogMetaData: Removing '/Game/Man/Demo/Animations/PawnAnimBlueprint.PawnAnimBlueprint:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Man/Demo/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.08.08-14.00.49:788][984]LogMetaData: Removing '/Game/Man/Demo/Animations/PawnAnimBlueprint.SKEL_PawnAnimBlueprint_C' ref from Metadata '/Game/Man/Demo/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.08.08-14.00.49:788][984]LogMetaData: Removing '/Game/Man/Demo/Animations/PawnAnimBlueprint.PawnAnimBlueprint_C' ref from Metadata '/Game/Man/Demo/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.08.08-14.00.49:788][984]LogMetaData: Removing '/Game/Man/Demo/Animations/PawnAnimBlueprint.PawnAnimBlueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Man/Demo/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.08.08-14.00.49:863][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Man/Demo/Animations/PawnAnimBlueprint" FILE="../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset" SILENT=true
+[2022.08.08-14.00.49:874][984]LogSavePackage: Save=10.16ms
+[2022.08.08-14.00.49:874][984]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/PawnAnimBlueprintB549053B4B593E5D5A0E828D2D30F566.tmp' to '../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset'
+[2022.08.08-14.00.49:876][984]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset
+[2022.08.08-14.00.49:971][984]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f42020f158, Size=4
+[2022.08.08-14.01.22:567][690]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2022.08.08-14.01.23:454][690]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.08-14.01.23:531][690]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2022.08.08-14.01.24:334][690]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2022.08.08-14.01.24:830][690]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f420168738, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2022.08.08-14.01.24:830][690]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f420168700, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2022.08.08-14.01.27:012][690]LogSlate: Took 0.019979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.08.08-14.01.27:183][690]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2022.08.08-14.01.27:407][690]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.08.08-14.01.56:712][844]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Man/Demo/Animations/ThirdPersonRun.ThirdPersonRun
+[2022.08.08-14.01.56:731][844]LogAnimationCompression: Recompressing (AnimSequence /Game/Man/Demo/Animations/ThirdPersonRun.ThirdPersonRun) using current/default (AnimCompress_RemoveLinearKeys_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.08.08-14.01.57:667][930]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4a3c2a270, Size=4, Default__SKEL_PawnAnimBlueprint_C Function /Game/Man/Demo/Animations/PawnAnimBlueprint.SKEL_PawnAnimBlueprint_C:ExecuteUbergraph_PawnAnimBlueprint
+[2022.08.08-14.07.41:353][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.062
+[2022.08.08-14.07.41:355][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Man/Demo/Animations/PawnAnimBlueprint] ([1] browsable assets)...
+[2022.08.08-14.07.41:371][968]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Man/Demo/Animations/PawnAnimBlueprint.PawnAnimBlueprint]
+[2022.08.08-14.07.41:371][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Man/Demo/Animations/PawnAnimBlueprint]
+[2022.08.08-14.07.41:421][968]LogSavePackage: Save=12.17ms
+[2022.08.08-14.07.41:421][968]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/PawnAnimBlueprint_Auto21C3AC53E4E3932A1219708BB1AD4453B.tmp' to '../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Man/Demo/Animations/PawnAnimBlueprint_Auto2.uasset'
+[2022.08.08-14.07.41:422][968]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Saved/Autosaves/Game/Man/Demo/Animations/PawnAnimBlueprint_Auto2.uasset
+[2022.08.08-14.07.41:423][968]LogFileHelpers: Auto-saving content packages took 0.069
+[2022.08.08-14.13.13:687][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Man/Demo/Animations/PawnAnimBlueprint" FILE="../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset" SILENT=true
+[2022.08.08-14.13.13:694][253]LogSavePackage: Save=4.79ms
+[2022.08.08-14.13.13:695][253]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/PawnAnimBlueprint21A551054960E008F1B977B888735F89.tmp' to '../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset'
+[2022.08.08-14.13.13:697][253]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset
+[2022.08.08-14.13.14:989][395]LogSlate: Window 'PawnAnimBlueprint' being destroyed
+[2022.08.08-14.13.14:993][395]LogSlate: Window 'PawnAnimBlueprint' being destroyed
+[2022.08.08-14.17.05:325][737]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2022.08.08-14.17.05:810][737]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.08.08-14.17.09:695][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Man/Demo/Animations/PawnAnimBlueprint" FILE="../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset" SILENT=true
+[2022.08.08-14.17.09:708][130]LogSavePackage: Save=11.40ms
+[2022.08.08-14.17.09:708][130]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/PawnAnimBlueprintAF85900E4E9A76E21E4D08A810DA710F.tmp' to '../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset'
+[2022.08.08-14.17.09:710][130]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset
+[2022.08.08-14.17.10:726][240]BlueprintLog: New page: PawnAnimBlueprint 컴파일
+[2022.08.08-14.17.10:727][240]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4a3c2a270, Size=4
+[2022.08.08-14.17.10:727][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4a3c2a270, Size=4, Default__SKEL_PawnAnimBlueprint_C Function /Engine/Transient.REINST_SKEL_PawnAnimBlueprint_C_3:ExecuteUbergraph_PawnAnimBlueprint
+[2022.08.08-14.17.10:728][240]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f42020c9e0, Size=4
+[2022.08.08-14.17.10:728][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4a3c291e8, Size=4, Default__PawnAnimBlueprint_C Function /Engine/Transient.REINST_PawnAnimBlueprint_C_4:ExecuteUbergraph_PawnAnimBlueprint
+[2022.08.08-14.17.10:748][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4a3c2b570, Size=4, Default__PawnAnimBlueprint_C Function /Game/Man/Demo/Animations/PawnAnimBlueprint.PawnAnimBlueprint_C:ExecuteUbergraph_PawnAnimBlueprint
+[2022.08.08-14.17.10:824][240]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4a3c2a270, Size=4
+[2022.08.08-14.17.17:859][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Man/Demo/Animations/PawnAnimBlueprint" FILE="../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset" SILENT=true
+[2022.08.08-14.17.17:873][996]LogSavePackage: Save=12.05ms
+[2022.08.08-14.17.17:874][996]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/PawnAnimBlueprint60411EBA43BA9344F349A5ABE9D54C8C.tmp' to '../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset'
+[2022.08.08-14.17.17:875][996]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Man/Demo/Animations/PawnAnimBlueprint.uasset
+[2022.08.08-14.17.19:738][197]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-14.17.19:756][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-14.17.19:756][197]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 8:17:19)
+[2022.08.08-14.17.19:756][197]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-14.17.19:761][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004378s)
+[2022.08.08-14.17.19:762][197]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-14.17.19:762][197]LogPlayLevel: PIE: World Init took: (0.001279s)
+[2022.08.08-14.17.19:763][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.006291s)
+[2022.08.08-14.17.19:782][197]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4a3c291e8, Size=4
+[2022.08.08-14.17.19:850][197]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-14.17.19:866][197]LogInit: FAudioDevice initialized.
+[2022.08.08-14.17.19:898][197]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-14.17.19:899][197]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-23.17.19
+[2022.08.08-14.17.19:900][197]LogWorld: Bringing up level for play took: 0.001055
+[2022.08.08-14.17.19:902][197]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: -0.477
+[2022.08.08-14.17.24:719][611]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.08.08-14.17.26:896][849]Cmd: SELECT NONE
+[2022.08.08-14.17.28:624][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.08-14.17.28:692][967]LogSlate: Window 'PawnAnimBlueprint' being destroyed
+[2022.08.08-14.17.28:697][967]LogSlate: Window 'PawnAnimBlueprint' being destroyed
+[2022.08.08-14.17.49:301][390]LogHotReload: New module detected: UE4Editor-Stiff-1722.dll
+[2022.08.08-14.17.50:320][394]LogHotReload: Starting Hot-Reload from IDE
+[2022.08.08-14.17.50:736][394]LogHotReload: Re-instancing STPawn after hot-reload.
+[2022.08.08-14.17.50:850][394]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2022.08.08-14.17.50:852][394]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.08.08-14.17.51:090][394]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2457 classes and 564 folders.
+[2022.08.08-14.17.51:094][394]Display: HotReload took  0.8s.
+[2022.08.08-14.18.27:964][760]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-14.18.27:975][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-14.18.27:975][760]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 8:18:27)
+[2022.08.08-14.18.27:975][760]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-14.18.27:978][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002275s)
+[2022.08.08-14.18.27:979][760]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-14.18.27:979][760]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2022.08.08-14.18.27:979][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003635s)
+[2022.08.08-14.18.28:069][760]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-14.18.28:085][760]LogInit: FAudioDevice initialized.
+[2022.08.08-14.18.28:114][760]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-14.18.28:115][760]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-23.18.28
+[2022.08.08-14.18.28:115][760]LogWorld: Bringing up level for play took: 0.000579
+[2022.08.08-14.18.28:116][760]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: -0.262
+[2022.08.08-14.18.36:101][712]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-14.18.41:894][406]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-14.18.44:454][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-14.18.47:114][996]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.08.08-14.18.48:086][ 97]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.08.08-14.18.49:536][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.08-14.19.22:442][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-14.19.23:337][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.08.08-14.19.27:810][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.08-14.19.28:363][597]LogSlate: Took 0.019833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.08.08-14.19.59:107][342]LogHotReload: New module detected: UE4Editor-Stiff-3972.dll
+[2022.08.08-14.20.00:122][346]LogHotReload: Starting Hot-Reload from IDE
+[2022.08.08-14.20.00:522][346]LogHotReload: Re-instancing STPawn after hot-reload.
+[2022.08.08-14.20.00:637][346]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2022.08.08-14.20.00:639][346]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.08.08-14.20.00:872][346]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2457 classes and 564 folders.
+[2022.08.08-14.20.00:877][346]Display: HotReload took  0.8s.
+[2022.08.08-14.20.13:619][504]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-14.20.13:632][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-14.20.13:632][504]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 8:20:13)
+[2022.08.08-14.20.13:632][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-14.20.13:634][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001678s)
+[2022.08.08-14.20.13:635][504]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-14.20.13:635][504]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2022.08.08-14.20.13:635][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.003030s)
+[2022.08.08-14.20.13:738][504]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-14.20.13:759][504]LogInit: FAudioDevice initialized.
+[2022.08.08-14.20.13:788][504]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-14.20.13:789][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-23.20.13
+[2022.08.08-14.20.13:789][504]LogWorld: Bringing up level for play took: 0.000582
+[2022.08.08-14.20.13:790][504]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: -0.589
+[2022.08.08-14.20.16:923][878]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-14.20.26:838][ 50]Cmd: SELECT NONE
+[2022.08.08-14.20.50:380][291]LogHotReload: New module detected: UE4Editor-Stiff-1750.dll
+[2022.08.08-14.20.51:396][295]LogHotReload: Starting Hot-Reload from IDE
+[2022.08.08-14.20.51:797][295]LogHotReload: Re-instancing STPawn after hot-reload.
+[2022.08.08-14.20.51:912][295]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0011 seconds. Added 3 classes and 2 folders.
+[2022.08.08-14.20.51:915][295]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.08.08-14.20.52:143][295]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2457 classes and 564 folders.
+[2022.08.08-14.20.52:148][295]Display: HotReload took  0.8s.
+[2022.08.08-14.20.58:932][484]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-14.20.58:943][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-14.20.58:944][484]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 8:20:58)
+[2022.08.08-14.20.58:944][484]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-14.20.58:946][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001705s)
+[2022.08.08-14.20.58:946][484]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-14.20.58:946][484]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2022.08.08-14.20.58:947][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.002854s)
+[2022.08.08-14.20.59:035][484]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-14.20.59:055][484]LogInit: FAudioDevice initialized.
+[2022.08.08-14.20.59:087][484]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-14.20.59:088][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-23.20.59
+[2022.08.08-14.20.59:088][484]LogWorld: Bringing up level for play took: 0.000610
+[2022.08.08-14.20.59:089][484]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.711
+[2022.08.08-14.21.01:951][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.08-14.21.11:663][985]Cmd: SELECT NONE
+[2022.08.08-14.22.39:943][854]LogHotReload: New module detected: UE4Editor-Stiff-8466.dll
+[2022.08.08-14.22.40:960][858]LogHotReload: Starting Hot-Reload from IDE
+[2022.08.08-14.22.41:349][858]LogHotReload: Re-instancing STPawn after hot-reload.
+[2022.08.08-14.22.41:456][858]LogContentBrowser: Native class hierarchy updated for 'Stiff' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2022.08.08-14.22.41:458][858]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.08.08-14.22.41:685][858]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2457 classes and 564 folders.
+[2022.08.08-14.22.41:689][858]Display: HotReload took  0.7s.
+[2022.08.08-14.22.43:125][973]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.08-14.22.43:137][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.08-14.22.43:137][973]PIE: New page: PIE 세션: Prototype (2022. 8. 9. 오전 8:22:43)
+[2022.08.08-14.22.43:137][973]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2022.08.08-14.22.43:139][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001617s)
+[2022.08.08-14.22.43:140][973]LogAIModule: Creating AISystem for world Prototype
+[2022.08.08-14.22.43:140][973]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2022.08.08-14.22.43:140][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.002843s)
+[2022.08.08-14.22.43:234][973]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.08.08-14.22.43:256][973]LogInit: FAudioDevice initialized.
+[2022.08.08-14.22.43:288][973]LogLoad: Game class is 'StiffGameModeBase'
+[2022.08.08-14.22.43:289][973]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2022.08.08-23.22.43
+[2022.08.08-14.22.43:289][973]LogWorld: Bringing up level for play took: 0.000574
+[2022.08.08-14.22.43:290][973]PIE: /Game/Maps/UEDPIE_0_Prototype 에 대한 에디터에서 플레이 시작 시간: 0.911
+[2022.08.08-14.23.04:442][504]Cmd: SELECT NONE
+[2022.08.08-14.23.09:163][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Prototype" FILE="../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.08-14.23.09:208][ 56]LogSavePackage: Save=19.94ms
+[2022.08.08-14.23.09:208][ 56]LogSavePackage: Moving '../../../../UE4CPP/Stiff/Saved/PrototypeA42482CE40E2CFEC970DFCB23F89012A.tmp' to '../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap'
+[2022.08.08-14.23.09:228][ 56]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/Stiff/Content/Maps/Prototype.umap
+[2022.08.08-14.23.10:290][163]LogSlate: Window 'Stiff - 언리얼 에디터' being destroyed
+[2022.08.08-14.23.10:627][164]Cmd: QUIT_EDITOR
+[2022.08.08-14.23.11:646][164]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2022.08.08-14.23.11:671][164]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.08.08-14.23.11:689][164]LogExit: Preparing to exit.
+[2022.08.08-14.23.12:583][164]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Content/' was aborted.
+[2022.08.08-14.23.12:797][164]LogExit: Editor shut down
+[2022.08.08-14.23.12:820][164]LogExit: Transaction tracking system shut down
+[2022.08.08-14.23.12:828][164]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4a3c2b570, Size=4
+[2022.08.08-14.23.12:829][164]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f420168738, Size=4
+[2022.08.08-14.23.12:829][164]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f420168700, Size=4
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../../../UE4CPP/Stiff/Content/' was aborted.
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2022.08.08-14.23.13:148][164]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2022.08.08-14.23.15:288][164]LogExit: Object subsystem successfully closed.
+[2022.08.08-14.23.15:486][164]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.08.08-14.23.15:497][164]LogD3D11RHI: Shutdown
+[2022.08.08-14.23.15:497][164]LogD3D11RHI: CleanupD3DDevice
+[2022.08.08-14.23.15:554][164]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.08.08-14.23.16:517][164]LogModuleManager: Shutting down and abandoning module Stiff (595)
+[2022.08.08-14.23.16:517][164]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (591)
+[2022.08.08-14.23.16:517][164]LogModuleManager: Shutting down and abandoning module BlueprintGraph (589)
+[2022.08.08-14.23.16:517][164]LogModuleManager: Shutting down and abandoning module PinnedCommandList (587)
+[2022.08.08-14.23.16:517][164]LogModuleManager: Shutting down and abandoning module SkeletonEditor (585)
+[2022.08.08-14.23.16:518][164]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (583)
+[2022.08.08-14.23.16:518][164]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (580)
+[2022.08.08-14.23.16:518][164]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (578)
+[2022.08.08-14.23.16:518][164]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2022.08.08-14.23.16:518][164]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2022.08.08-14.23.16:518][164]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2022.08.08-14.23.16:529][164]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2022.08.08-14.23.16:544][164]LogDirectoryWatcher: A directory notification for 'D:/UE_4.19/FeaturePacks/' was aborted.
+[2022.08.08-14.23.16:549][164]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2022.08.08-14.23.16:549][164]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2022.08.08-14.23.16:549][164]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2022.08.08-14.23.16:584][164]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Content/Collections/' was aborted.
+[2022.08.08-14.23.16:584][164]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Content/Developers/guldd/Collections/' was aborted.
+[2022.08.08-14.23.16:584][164]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Saved/Collections/' was aborted.
+[2022.08.08-14.23.16:584][164]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2022.08.08-14.23.16:596][164]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2022.08.08-14.23.16:596][164]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2022.08.08-14.23.16:596][164]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2022.08.08-14.23.16:596][164]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2022.08.08-14.23.16:596][164]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2022.08.08-14.23.16:596][164]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2022.08.08-14.23.16:609][164]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2022.08.08-14.23.16:609][164]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2022.08.08-14.23.16:609][164]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2022.08.08-14.23.16:609][164]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2022.08.08-14.23.16:609][164]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2022.08.08-14.23.16:619][164]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2022.08.08-14.23.16:619][164]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2022.08.08-14.23.16:619][164]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2022.08.08-14.23.16:637][164]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2022.08.08-14.23.16:650][164]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2022.08.08-14.23.16:674][164]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2022.08.08-14.23.16:674][164]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2022.08.08-14.23.16:697][164]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2022.08.08-14.23.16:697][164]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2022.08.08-14.23.16:697][164]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2022.08.08-14.23.16:708][164]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2022.08.08-14.23.16:708][164]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2022.08.08-14.23.16:708][164]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2022.08.08-14.23.16:709][164]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2022.08.08-14.23.16:734][164]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2022.08.08-14.23.16:735][164]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2022.08.08-14.23.16:760][164]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2022.08.08-14.23.16:792][164]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2022.08.08-14.23.16:792][164]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2022.08.08-14.23.16:792][164]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2022.08.08-14.23.16:792][164]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2022.08.08-14.23.16:792][164]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2022.08.08-14.23.17:308][164]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2022.08.08-14.23.17:308][164]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2022.08.08-14.23.17:308][164]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2022.08.08-14.23.17:308][164]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2022.08.08-14.23.17:324][164]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2022.08.08-14.23.17:335][164]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2022.08.08-14.23.17:346][164]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2022.08.08-14.23.17:360][164]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2022.08.08-14.23.17:360][164]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2022.08.08-14.23.17:377][164]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2022.08.08-14.23.17:377][164]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2022.08.08-14.23.17:383][164]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2022.08.08-14.23.17:383][164]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2022.08.08-14.23.17:383][164]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2022.08.08-14.23.17:384][164]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2022.08.08-14.23.17:384][164]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2022.08.08-14.23.17:392][164]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2022.08.08-14.23.17:401][164]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2022.08.08-14.23.17:414][164]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2022.08.08-14.23.17:422][164]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2022.08.08-14.23.17:433][164]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2022.08.08-14.23.17:477][164]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2022.08.08-14.23.17:483][164]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2022.08.08-14.23.17:511][164]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2022.08.08-14.23.17:546][164]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2022.08.08-14.23.17:546][164]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2022.08.08-14.23.17:561][164]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2022.08.08-14.23.17:561][164]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2022.08.08-14.23.17:561][164]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2022.08.08-14.23.17:561][164]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2022.08.08-14.23.17:561][164]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2022.08.08-14.23.17:574][164]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2022.08.08-14.23.17:575][164]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2022.08.08-14.23.17:576][164]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2022.08.08-14.23.17:576][164]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2022.08.08-14.23.17:593][164]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2022.08.08-14.23.17:608][164]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2022.08.08-14.23.17:608][164]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2022.08.08-14.23.17:615][164]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2022.08.08-14.23.17:634][164]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2022.08.08-14.23.17:756][164]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2022.08.08-14.23.17:768][164]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2022.08.08-14.23.17:768][164]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2022.08.08-14.23.17:768][164]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2022.08.08-14.23.17:773][164]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2022.08.08-14.23.17:785][164]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2022.08.08-14.23.17:785][164]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2022.08.08-14.23.17:785][164]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2022.08.08-14.23.17:796][164]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2022.08.08-14.23.17:796][164]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2022.08.08-14.23.17:796][164]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2022.08.08-14.23.17:796][164]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2022.08.08-14.23.17:796][164]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2022.08.08-14.23.17:819][164]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2022.08.08-14.23.17:819][164]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2022.08.08-14.23.17:819][164]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2022.08.08-14.23.17:819][164]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2022.08.08-14.23.17:838][164]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2022.08.08-14.23.17:838][164]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2022.08.08-14.23.17:847][164]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2022.08.08-14.23.17:847][164]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2022.08.08-14.23.17:847][164]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2022.08.08-14.23.17:847][164]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2022.08.08-14.23.17:847][164]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2022.08.08-14.23.17:847][164]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2022.08.08-14.23.17:863][164]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2022.08.08-14.23.17:871][164]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2022.08.08-14.23.17:877][164]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2022.08.08-14.23.17:877][164]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2022.08.08-14.23.17:877][164]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2022.08.08-14.23.17:877][164]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2022.08.08-14.23.17:877][164]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2022.08.08-14.23.17:884][164]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2022.08.08-14.23.17:902][164]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2022.08.08-14.23.17:915][164]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2022.08.08-14.23.17:925][164]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2022.08.08-14.23.17:934][164]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2022.08.08-14.23.17:934][164]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2022.08.08-14.23.17:934][164]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2022.08.08-14.23.17:934][164]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2022.08.08-14.23.17:954][164]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2022.08.08-14.23.17:969][164]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2022.08.08-14.23.17:969][164]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2022.08.08-14.23.17:969][164]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2022.08.08-14.23.17:969][164]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2022.08.08-14.23.17:969][164]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2022.08.08-14.23.17:969][164]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2022.08.08-14.23.17:969][164]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2022.08.08-14.23.17:979][164]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2022.08.08-14.23.17:979][164]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2022.08.08-14.23.18:096][164]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2022.08.08-14.23.18:213][164]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2022.08.08-14.23.18:218][164]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2022.08.08-14.23.18:218][164]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2022.08.08-14.23.18:218][164]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2022.08.08-14.23.18:218][164]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2022.08.08-14.23.18:235][164]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2022.08.08-14.23.18:272][164]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2022.08.08-14.23.18:284][164]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2022.08.08-14.23.18:284][164]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2022.08.08-14.23.18:284][164]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2022.08.08-14.23.18:285][164]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/Stiff/Binaries/Win64' was aborted.
+[2022.08.08-14.23.18:285][164]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2022.08.08-14.23.18:286][164]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2022.08.08-14.23.18:301][164]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2022.08.08-14.23.18:301][164]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2022.08.08-14.23.18:301][164]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2022.08.08-14.23.18:375][164]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2022.08.08-14.23.18:387][164]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2022.08.08-14.23.18:404][164]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2022.08.08-14.23.18:418][164]LogModuleManager: Shutting down and abandoning module Media (233)
+[2022.08.08-14.23.18:424][164]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2022.08.08-14.23.18:424][164]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2022.08.08-14.23.18:424][164]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2022.08.08-14.23.18:435][164]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2022.08.08-14.23.18:435][164]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2022.08.08-14.23.18:435][164]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2022.08.08-14.23.18:435][164]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2022.08.08-14.23.18:449][164]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2022.08.08-14.23.18:449][164]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2022.08.08-14.23.18:449][164]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2022.08.08-14.23.18:476][164]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2022.08.08-14.23.18:483][164]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2022.08.08-14.23.18:493][164]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2022.08.08-14.23.18:493][164]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2022.08.08-14.23.18:502][164]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2022.08.08-14.23.18:537][164]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2022.08.08-14.23.18:556][164]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2022.08.08-14.23.18:556][164]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2022.08.08-14.23.18:578][164]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2022.08.08-14.23.18:578][164]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2022.08.08-14.23.18:580][164]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2022.08.08-14.23.18:580][164]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2022.08.08-14.23.18:580][164]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2022.08.08-14.23.18:580][164]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2022.08.08-14.23.18:580][164]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2022.08.08-14.23.18:580][164]LogModuleManager: Shutting down and abandoning module Core (178)
+[2022.08.08-14.23.18:580][164]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2022.08.08-14.23.18:590][164]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2022.08.08-14.23.18:590][164]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2022.08.08-14.23.18:605][164]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2022.08.08-14.23.18:605][164]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2022.08.08-14.23.18:605][164]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2022.08.08-14.23.18:624][164]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2022.08.08-14.23.18:635][164]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2022.08.08-14.23.18:650][164]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2022.08.08-14.23.18:662][164]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2022.08.08-14.23.18:664][164]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2022.08.08-14.23.18:677][164]LogDerivedDataCache: Shutdown
+[2022.08.08-14.23.18:677][164]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2022.08.08-14.23.18:677][164]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2022.08.08-14.23.18:677][164]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2022.08.08-14.23.18:720][164]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2022.08.08-14.23.18:732][164]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2022.08.08-14.23.18:748][164]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2022.08.08-14.23.18:767][164]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2022.08.08-14.23.18:791][164]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2022.08.08-14.23.18:791][164]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2022.08.08-14.23.18:791][164]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2022.08.08-14.23.18:827][164]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2022.08.08-14.23.18:842][164]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2022.08.08-14.23.18:843][164]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2022.08.08-14.23.18:853][164]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2022.08.08-14.23.18:853][164]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2022.08.08-14.23.18:853][164]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2022.08.08-14.23.18:853][164]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2022.08.08-14.23.18:853][164]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2022.08.08-14.23.18:892][164]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2022.08.08-14.23.18:905][164]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2022.08.08-14.23.18:919][164]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.08.08-14.23.18:919][164]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BFD87A-4DEF-759E-4593-B9BABF620569%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=e79f5cc5407acae592eeb0a476ccd7a2%7C08905224029e428f9f07defacfcb4ba1%7C77501964-0de5-4002-8f6f-3f941ea6e768&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.08.08-14.23.18:944][164]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2022.08.08-14.23.19:007][164]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2022.08.08-14.23.19:021][164]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.08.08-14.23.19:031][164]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.08.08-14.23.19:047][164]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2022.08.08-14.23.19:060][164]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2022.08.08-14.23.19:060][164]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2022.08.08-14.23.19:060][164]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2022.08.08-14.23.19:099][164]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2022.08.08-14.23.19:111][164]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2022.08.08-14.23.19:111][164]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2022.08.08-14.23.19:128][164]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2022.08.08-14.23.19:128][164]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2022.08.08-14.23.19:128][164]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2022.08.08-14.23.19:128][164]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2022.08.08-14.23.19:134][164]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2022.08.08-14.23.19:134][164]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2022.08.08-14.23.19:142][164]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2022.08.08-14.23.19:150][164]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2022.08.08-14.23.19:181][164]LogExit: Exiting.
+[2022.08.08-14.23.19:202][164]Log file closed, 08/08/22 23:23:19
