@@ -45,6 +45,8 @@ ASTCharacter::ASTCharacter()
 	{
 		GetMesh()->SetAnimInstanceClass(PawnAnimInstance.Class);
 	}
+
+	GetCharacterMovement()->JumpZVelocity = 550.0f;
 }
 
 // Called when the game starts or when spawned
@@ -70,6 +72,8 @@ void ASTCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("LeftRight"), this, &ASTCharacter::LeftRight);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &ASTCharacter::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ASTCharacter::Turn);
+	
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ASTCharacter::Jump);
 }
 
 void ASTCharacter::UpDown(float NewAxisValue)

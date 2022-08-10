@@ -36,6 +36,11 @@ void EmptyLinkFunctionForGeneratedCodeSTAnimInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentPawnSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentPawnSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsInAir_MetaData[];
+#endif
+		static void NewProp_IsInAir_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsInAir;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -60,8 +65,21 @@ void EmptyLinkFunctionForGeneratedCodeSTAnimInstance() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_USTAnimInstance_Statics::NewProp_CurrentPawnSpeed = { "CurrentPawnSpeed", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USTAnimInstance, CurrentPawnSpeed), METADATA_PARAMS(Z_Construct_UClass_USTAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USTAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USTAnimInstance_Statics::NewProp_IsInAir_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Pawn" },
+		{ "ModuleRelativePath", "STAnimInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_USTAnimInstance_Statics::NewProp_IsInAir_SetBit(void* Obj)
+	{
+		((USTAnimInstance*)Obj)->IsInAir = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_USTAnimInstance_Statics::NewProp_IsInAir = { "IsInAir", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(USTAnimInstance), &Z_Construct_UClass_USTAnimInstance_Statics::NewProp_IsInAir_SetBit, METADATA_PARAMS(Z_Construct_UClass_USTAnimInstance_Statics::NewProp_IsInAir_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USTAnimInstance_Statics::NewProp_IsInAir_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USTAnimInstance_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USTAnimInstance_Statics::NewProp_CurrentPawnSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USTAnimInstance_Statics::NewProp_IsInAir,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_USTAnimInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<USTAnimInstance>::IsAbstract,
@@ -90,7 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeSTAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USTAnimInstance, 1537124012);
+	IMPLEMENT_CLASS(USTAnimInstance, 3574165271);
 	template<> STIFF_API UClass* StaticClass<USTAnimInstance>()
 	{
 		return USTAnimInstance::StaticClass();

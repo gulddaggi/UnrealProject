@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USTAnimInstance); \
 
 
 #define Stiff_Source_Stiff_STAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(USTAnimInstance, CurrentPawnSpeed); }
+	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(USTAnimInstance, CurrentPawnSpeed); } \
+	FORCEINLINE static uint32 __PPO__IsInAir() { return STRUCT_OFFSET(USTAnimInstance, IsInAir); }
 
 
 #define Stiff_Source_Stiff_STAnimInstance_h_12_PROLOG
