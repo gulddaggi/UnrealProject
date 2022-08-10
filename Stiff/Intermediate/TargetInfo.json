@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Stiff",
+			"Path": "D:\\UE4CPP\\Stiff\\Source\\Stiff.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "StiffEditor",
+			"Path": "D:\\UE4CPP\\Stiff\\Source\\StiffEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

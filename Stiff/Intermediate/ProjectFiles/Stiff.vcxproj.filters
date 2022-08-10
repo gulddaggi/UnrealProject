@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Stiff.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{56DEEF55-A5CF-4611-86B9-AAEAA457B90C}</UniqueIdentifier>
+      <UniqueIdentifier>{BFF55F7E-83C9-4FA4-AF88-747AD950C932}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Stiff.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0C1B1D62-85C2-4433-87E2-E3B8CA827A93}</UniqueIdentifier>
+      <UniqueIdentifier>{336A01CD-11C1-4E84-A44D-8EC53DBDDA5C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,24 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Stiff">
-      <UniqueIdentifier>{D353E956-9D0F-495F-A1B3-D4879E96A4DD}</UniqueIdentifier>
+      <UniqueIdentifier>{D60DF516-207A-4463-9172-B5D77A360C83}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Stiff\STAnimInstance.cpp">
+      <Filter>Source\Stiff</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stiff\STAnimInstance.h">
+      <Filter>Source\Stiff</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stiff\STCharacter.cpp">
+      <Filter>Source\Stiff</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stiff\STCharacter.h">
+      <Filter>Source\Stiff</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Stiff\Stiff.Build.cs">
       <Filter>Source\Stiff</Filter>
     </None>
@@ -47,15 +62,11 @@
     <ClInclude Include="..\..\Source\Stiff\STPawn.h">
       <Filter>Source\Stiff</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Stiff\STPlayerController.h">
-      <Filter>Source\Stiff</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\Stiff\STPlayerController.cpp">
       <Filter>Source\Stiff</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Stiff\STPlayerController.h">
+      <Filter>Source\Stiff</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
