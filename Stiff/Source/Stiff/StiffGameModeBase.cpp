@@ -1,12 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "StiffGameModeBase.h"
-#include "STPawn.h"
+#include "STCharacter.h"
 #include "STPlayerController.h"
 
 AStiffGameModeBase::AStiffGameModeBase()
 {
-	DefaultPawnClass = ASTPawn::StaticClass();
+	DefaultPawnClass = ASTCharacter::StaticClass();
 	PlayerControllerClass = ASTPlayerController::StaticClass();
 }
 

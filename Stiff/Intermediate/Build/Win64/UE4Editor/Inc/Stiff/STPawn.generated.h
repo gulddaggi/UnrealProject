@@ -1,11 +1,11 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef STIFF_STPawn_generated_h
@@ -13,26 +13,25 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STIFF_STPawn_generated_h
 
+#define Stiff_Source_Stiff_STPawn_h_13_SPARSE_DATA
 #define Stiff_Source_Stiff_STPawn_h_13_RPC_WRAPPERS
 #define Stiff_Source_Stiff_STPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS
 #define Stiff_Source_Stiff_STPawn_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASTPawn(); \
-	friend STIFF_API class UClass* Z_Construct_UClass_ASTPawn(); \
+	friend struct Z_Construct_UClass_ASTPawn_Statics; \
 public: \
-	DECLARE_CLASS(ASTPawn, APawn, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Stiff"), NO_API) \
-	DECLARE_SERIALIZER(ASTPawn) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ASTPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Stiff"), NO_API) \
+	DECLARE_SERIALIZER(ASTPawn)
 
 
 #define Stiff_Source_Stiff_STPawn_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesASTPawn(); \
-	friend STIFF_API class UClass* Z_Construct_UClass_ASTPawn(); \
+	friend struct Z_Construct_UClass_ASTPawn_Statics; \
 public: \
-	DECLARE_CLASS(ASTPawn, APawn, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Stiff"), NO_API) \
-	DECLARE_SERIALIZER(ASTPawn) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ASTPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Stiff"), NO_API) \
+	DECLARE_SERIALIZER(ASTPawn)
 
 
 #define Stiff_Source_Stiff_STPawn_h_13_STANDARD_CONSTRUCTORS \
@@ -65,6 +64,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASTPawn); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Stiff_Source_Stiff_STPawn_h_13_PRIVATE_PROPERTY_OFFSET \
+	Stiff_Source_Stiff_STPawn_h_13_SPARSE_DATA \
 	Stiff_Source_Stiff_STPawn_h_13_RPC_WRAPPERS \
 	Stiff_Source_Stiff_STPawn_h_13_INCLASS \
 	Stiff_Source_Stiff_STPawn_h_13_STANDARD_CONSTRUCTORS \
@@ -76,12 +76,15 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Stiff_Source_Stiff_STPawn_h_13_PRIVATE_PROPERTY_OFFSET \
+	Stiff_Source_Stiff_STPawn_h_13_SPARSE_DATA \
 	Stiff_Source_Stiff_STPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	Stiff_Source_Stiff_STPawn_h_13_INCLASS_NO_PURE_DECLS \
 	Stiff_Source_Stiff_STPawn_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
+
+template<> STIFF_API UClass* StaticClass<class ASTPawn>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID Stiff_Source_Stiff_STPawn_h
