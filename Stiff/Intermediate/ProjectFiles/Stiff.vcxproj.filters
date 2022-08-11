@@ -3,16 +3,13 @@
   <ItemGroup>
     <None Include="..\..\Stiff.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BFF55F7E-83C9-4FA4-AF88-747AD950C932}</UniqueIdentifier>
+      <UniqueIdentifier>{31FD27EE-2370-464B-A481-CD335393B2E1}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Source\Stiff.Target.cs">
-      <Filter>Source</Filter>
-    </None>
     <None Include="..\..\Source\StiffEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{336A01CD-11C1-4E84-A44D-8EC53DBDDA5C}</UniqueIdentifier>
+      <UniqueIdentifier>{FE07B17B-F745-4CE7-9999-7114B1610463}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,11 +20,14 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Stiff">
-      <UniqueIdentifier>{D60DF516-207A-4463-9172-B5D77A360C83}</UniqueIdentifier>
+      <UniqueIdentifier>{2517972B-286A-4B44-92CC-9C6EFD7E155F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Stiff\STAnimInstance.cpp">
       <Filter>Source\Stiff</Filter>
@@ -68,5 +68,14 @@
     <ClInclude Include="..\..\Source\Stiff\STPlayerController.h">
       <Filter>Source\Stiff</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Stiff\STProjectile.cpp">
+      <Filter>Source\Stiff</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stiff\STProjectile.h">
+      <Filter>Source\Stiff</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Stiff.Target.cs">
+      <Filter>Source\Stiff</Filter>
+    </None>
   </ItemGroup>
 </Project>
