@@ -35,11 +35,19 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Mesh)
 		USkeletalMeshComponent* ThirdMesh;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		FVector MuzzleOffset;
+
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ASTProjectile> ProjectileClass;
+
+
 private:
 	void UpDown(float NewAxisValue);
 	void LeftRight(float NewAxisValue);
 	void LookUp(float NewAxisValue);
 	void Turn(float NewAxisValue);
-	
-	
+
+	UFUNCTION()
+		void Fire();
 };

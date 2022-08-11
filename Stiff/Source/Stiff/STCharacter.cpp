@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "STCharacter.h"
+#include "STProjectile.h"
 
 
 // Sets default values
@@ -47,6 +48,10 @@ ASTCharacter::ASTCharacter()
 	}
 
 	GetCharacterMovement()->JumpZVelocity = 550.0f;
+
+	ProjectileClass = ASTProjectile::StaticClass();
+	MuzzleOffset = FVector(0.0f, 30.0f, 10.0f);
+	
 }
 
 // Called when the game starts or when spawned
@@ -74,6 +79,7 @@ void ASTCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ASTCharacter::Turn);
 	
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ASTCharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Fire"), EInputEvent::IE_Pressed, this, &ASTCharacter::Fire);
 }
 
 void ASTCharacter::UpDown(float NewAxisValue)
@@ -94,4 +100,33 @@ void ASTCharacter::LookUp(float NewAxisValue)
 void ASTCharacter::Turn(float NewAxisValue)
 {
 	AddControllerYawInput(NewAxisValue);
+}
+
+void ASTCharacter::Fire()
+{
+	if (ProjectileClass)
+	{
+		FVector CameraLocation;
+		FRotator CameraRotation;
+		GetActorEyesViewPoint(CameraLocation, CameraRotation);
+
+		FVector MuzzleLocation = CameraLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
+		FRotator MuzzleRotation = CameraRotation;
+
+		MuzzleRotation.Pitch += 10.0f;
+		UWorld* World = GetWorld();
+		if (World)
+		{
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
+			SpawnParams.Instigator = GetInstigator() ;
+			ASTProjectile* Projectile = World->SpawnActor<ASTProjectile>(ProjectileClass, MuzzleLocation, MuzzleRotation, SpawnParams);
+			if (Projectile)
+			{
+				FVector LaunchDirection = MuzzleRotation.Vector();
+				Projectile->FireInDirection(LaunchDirection);
+			}
+
+		}
+	}
 }
